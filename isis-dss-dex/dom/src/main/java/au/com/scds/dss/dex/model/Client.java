@@ -65,7 +65,7 @@ public class Client {
 	private String GivenName;
 	private String FamilyName;
 	private Boolean IsUsingPsuedonym;
-	private LocalDate BirthDate; // 2014-02-24
+	private String BirthDate; // 2014-02-24
 	private Boolean IsBirthDateAnEstimate;
 	private Gender GenderCode;
 	private CountryOfBirth CountryOfBirthCode;
@@ -151,11 +151,11 @@ public class Client {
 	}
 
 	@XmlElement(required = true)
-	public LocalDate getBirthDate() {
+	public String getBirthDate() {
 		return BirthDate;
 	}
 
-	public void setBirthDate(LocalDate birthDate) {
+	public void setBirthDate(String birthDate) {
 		BirthDate = birthDate;
 	}
 

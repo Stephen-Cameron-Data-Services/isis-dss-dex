@@ -10,21 +10,20 @@ import org.apache.isis.applib.annotation.DomainObject;
 import org.apache.isis.applib.annotation.Nature;
 import org.joda.time.LocalDate;
 
-import au.com.scds.dss.dex.model.code.AboriginalOrTorresStraitIslanderOrigin;
-import au.com.scds.dss.dex.model.code.AccommodationType;
-import au.com.scds.dss.dex.model.code.Ancestry;
-import au.com.scds.dss.dex.model.code.CountryOfBirth;
-import au.com.scds.dss.dex.model.code.DVACardStatus;
-import au.com.scds.dss.dex.model.code.Disability;
-import au.com.scds.dss.dex.model.code.Gender;
-import au.com.scds.dss.dex.model.code.HouseholdComposition;
-import au.com.scds.dss.dex.model.code.IncomeFrequency;
-import au.com.scds.dss.dex.model.code.LanguageSpokenAtHome;
-import au.com.scds.dss.dex.model.code.MainSourceOfIncome;
-import au.com.scds.dss.dex.model.code.MigrationVisaCategory;
-import au.com.scds.dss.dex.model.code.Month;
+import au.com.scds.dss.dex.model.reference.AboriginalOrTorresStraitIslanderOrigin;
+import au.com.scds.dss.dex.model.reference.AccommodationType;
+import au.com.scds.dss.dex.model.reference.Ancestry;
+import au.com.scds.dss.dex.model.reference.CountryOfBirth;
+import au.com.scds.dss.dex.model.reference.DVACardStatus;
+import au.com.scds.dss.dex.model.reference.Disability;
+import au.com.scds.dss.dex.model.reference.Gender;
+import au.com.scds.dss.dex.model.reference.HouseholdComposition;
+import au.com.scds.dss.dex.model.reference.IncomeFrequency;
+import au.com.scds.dss.dex.model.reference.LanguageSpokenAtHome;
+import au.com.scds.dss.dex.model.reference.MainSourceOfIncome;
+import au.com.scds.dss.dex.model.reference.MigrationVisaCategory;
+import au.com.scds.dss.dex.model.reference.Month;
 
-@DomainObject(nature = Nature.VIEW_MODEL)
 @XmlRootElement
 @XmlType(propOrder = {
 		"ClientId",

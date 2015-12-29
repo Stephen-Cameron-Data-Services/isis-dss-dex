@@ -15,10 +15,10 @@ import org.apache.isis.applib.annotation.NatureOfService;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.joda.time.LocalDate;
 
-import au.com.scds.dss.dex.model.code.AboriginalOrTorresStraitIslanderOrigin;
-import au.com.scds.dss.dex.model.code.CountryOfBirth;
-import au.com.scds.dss.dex.model.code.Gender;
-import au.com.scds.dss.dex.model.code.LanguageSpokenAtHome;
+import au.com.scds.dss.dex.model.reference.AboriginalOrTorresStraitIslanderOrigin;
+import au.com.scds.dss.dex.model.reference.CountryOfBirth;
+import au.com.scds.dss.dex.model.reference.Gender;
+import au.com.scds.dss.dex.model.reference.LanguageSpokenAtHome;
 
 @DomainService(nature = NatureOfService.VIEW_MENU_ONLY, repositoryFor = Client.class)
 @DomainServiceLayout(named = "Clients", menuOrder = "20")

@@ -5,9 +5,9 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-import au.com.scds.dss.dex.model.code.AssessmentPhase;
-import au.com.scds.dss.dex.model.code.Score;
-import au.com.scds.dss.dex.model.code.ScoreType;
+import au.com.scds.dss.dex.model.reference.AssessmentPhase;
+import au.com.scds.dss.dex.model.reference.Score;
+import au.com.scds.dss.dex.model.reference.ScoreType;
 
 @XmlRootElement
 @XmlType(propOrder = { "ScoreTypeCode", "AssessmentPhaseCode", "Scores" })

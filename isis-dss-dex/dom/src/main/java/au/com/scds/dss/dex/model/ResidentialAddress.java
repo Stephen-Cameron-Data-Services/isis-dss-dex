@@ -1,6 +1,6 @@
 package au.com.scds.dss.dex.model;
 
-import au.com.scds.dss.dex.model.code.State;
+import au.com.scds.dss.dex.model.reference.State;
 
 public class ResidentialAddress {
 	// Not mandatory.

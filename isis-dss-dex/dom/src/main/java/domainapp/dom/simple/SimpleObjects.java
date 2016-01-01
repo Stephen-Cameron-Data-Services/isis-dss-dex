@@ -18,7 +18,12 @@
  */
 package domainapp.dom.simple;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import javax.inject.Inject;
+import javax.xml.datatype.DatatypeConfigurationException;
+import javax.xml.datatype.DatatypeFactory;
 
 import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.Identifier;
@@ -33,6 +38,12 @@ import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.query.QueryDefault;
 import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
 import org.apache.isis.applib.services.i18n.TranslatableString;
+import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
+
+import au.com.scds.dss.dex.model.generated.Client;
+import au.com.scds.dss.dex.model.generated.ObjectFactory;
+import au.com.scds.dss.dex.model.reference.ReferenceData;
 
 @DomainService(repositoryFor = SimpleObject.class)
 @DomainServiceLayout(menuOrder = "10")
@@ -104,4 +115,30 @@ public class SimpleObjects {
     DomainObjectContainer container;
 
     //endregion
+    
+	@Action(semantics = SemanticsOf.SAFE)
+	@MemberOrder(sequence = "10")
+	public List<Client> allClients() throws DatatypeConfigurationException {
+		ObjectFactory factory = new ObjectFactory();
+		DatatypeFactory datatypeFactory = DatatypeFactory.newInstance();
+		ArrayList<Client> cases = new ArrayList<>();
+		ReferenceData refData = new ReferenceData();
+		Client c = new Client();
+		c.setClientId("12345");
+		c.setConsentToProvideDetails(true);
+		c.setConsentedForFutureContacts(true);
+		c.setGivenName("Joe");
+		c.setFamilyName("Bloggs");
+		c.setIsUsingPsuedonym(false);
+		c.setBirthDate(new LocalDate("1950-10-10"));
+		System.out.println(c.getBirthDate().toString());
+		c.setIsBirthDateAnEstimate(false);
+		c.setGenderCode(refData.getGenderCode("MALE"));
+		c.setCountryOfBirthCode(refData.getCountryCode("Australia"));
+		c.setLanguageSpokenAtHomeCode(refData.getLanguageCode("English"));
+		c.setAboriginalOrTorresStraitIslanderOriginCode(refData.getAboriginalOrTorresStraitIslanderOriginCode("YES"));
+		c.setHasDisabilities(false);
+		cases.add(c);
+		return cases;
+	}
 }

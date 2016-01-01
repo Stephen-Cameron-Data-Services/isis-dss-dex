@@ -1,0 +1,5 @@
+<jaxb:bindings version="2.1" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<jaxb:globalBindings generateElementProperty="false">
+		<jaxb:javaType name="org.joda.time.LocalDate" xmlType="xs:date" parseMethod="au.com.scds.dss.dex.LocalDateAdapter.parseDate" printMethod="au.com.scds.dss.dex.LocalDateAdapter.printDate" />
+	</jaxb:globalBindings>
+</jaxb:bindings> 

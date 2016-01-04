@@ -16,7 +16,6 @@ import org.joda.time.LocalDate;
 
 import au.com.scds.dss.dex.model.generated.Client;
 import au.com.scds.dss.dex.model.generated.ObjectFactory;
-import au.com.scds.dss.dex.model.reference.ReferenceData;
 
 @DomainService(repositoryFor = oldClient.class)
 @DomainServiceLayout(named = "Clients", menuOrder = "20")
@@ -36,12 +35,12 @@ public class DEXFiles {
 		c.setFamilyName("Bloggs");
 		c.setIsUsingPsuedonym(false);
 		c.setBirthDate(new LocalDate("1950-10-10"));
-		System.out.println(c.getBirthDate().toString());
+		//System.out.println(c.getBirthDate().toString());
 		c.setIsBirthDateAnEstimate(false);
-		c.setGenderCode(refData.getGenderCode("MALE"));
-		c.setCountryOfBirthCode(refData.getCountryCode("Australia"));
-		c.setLanguageSpokenAtHomeCode(refData.getLanguageCode("English"));
-		c.setAboriginalOrTorresStraitIslanderOriginCode(refData.getAboriginalOrTorresStraitIslanderOriginCode("YES"));
+		c.setGenderCode("MALE");
+		c.setCountryOfBirthCode("Australia");
+		c.setLanguageSpokenAtHomeCode("English");
+		c.setAboriginalOrTorresStraitIslanderOriginCode("YES");
 		c.setHasDisabilities(false);
 		cases.add(c);
 

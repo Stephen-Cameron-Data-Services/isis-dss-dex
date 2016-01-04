@@ -6,8 +6,8 @@
 	<xsl:template match="/">
 		public class ReferenceData{
 		<xsl:for-each select="DEXReferenceData/ReferenceDataItems">
-			public String get<xsl:value-of select="@CodeType" />Code(String code){
-				return code;
+			public List&lt;<xsl:value-of select="@CodeType" />&gt; get<xsl:value-of select="@CodeType" />()){
+				return container.allMatches(new QueryDefault(<xsl:value-of select="@CodeType" />.class, "all"));
 			}
 		</xsl:for-each>
 		}

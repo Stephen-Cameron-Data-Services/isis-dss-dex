@@ -11,7 +11,6 @@ import org.joda.time.LocalDate;
 import org.junit.Test;
 
 import au.com.scds.dss.dex.model.generated.Client;
-import au.com.scds.dss.dex.model.reference.ReferenceData;
 
 public class DEXFileTest {
 
@@ -31,12 +30,13 @@ public class DEXFileTest {
     		c.setFamilyName("Bloggs");
     		c.setIsUsingPsuedonym(false);
     		c.setBirthDate(new LocalDate("1950-10-10"));
-    		System.out.println(c.getBirthDate().toString());
+    		//System.out.println(c.getBirthDate().toString());
     		c.setIsBirthDateAnEstimate(false);
-    		c.setGenderCode(refData.getGenderCode("MALE"));
-    		c.setCountryOfBirthCode(refData.getCountryCode("Australia"));
-    		c.setLanguageSpokenAtHomeCode(refData.getLanguageCode("English"));
-    		c.setAboriginalOrTorresStraitIslanderOriginCode(refData.getAboriginalOrTorresStraitIslanderOriginCode("YES"));
+    		c.setGenderCode("MALE");
+    		c.setCountryOfBirthCode("Australia");
+    		c.setLanguageSpokenAtHomeCode("English");
+    		c.setAboriginalOrTorresStraitIslanderOriginCode("YES");
+    		c.setHasDisabilities(false);
     		c.setHasDisabilities(false);
 
     		//java.io.File file = new java.io.File("C:\\file.xml");
@@ -46,6 +46,7 @@ public class DEXFileTest {
     		// output pretty printed
     		jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
+    		
     		//jaxbMarshaller.marshal(c, file);
     		jaxbMarshaller.marshal(c, System.out);
     		

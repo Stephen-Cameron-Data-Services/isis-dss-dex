@@ -43,7 +43,6 @@ import org.joda.time.LocalDate;
 
 import au.com.scds.dss.dex.model.generated.Client;
 import au.com.scds.dss.dex.model.generated.ObjectFactory;
-import au.com.scds.dss.dex.model.reference.ReferenceData;
 
 @DomainService(repositoryFor = SimpleObject.class)
 @DomainServiceLayout(menuOrder = "10")
@@ -122,7 +121,6 @@ public class SimpleObjects {
 		ObjectFactory factory = new ObjectFactory();
 		DatatypeFactory datatypeFactory = DatatypeFactory.newInstance();
 		ArrayList<Client> cases = new ArrayList<>();
-		ReferenceData refData = new ReferenceData();
 		Client c = new Client();
 		c.setClientId("12345");
 		c.setConsentToProvideDetails(true);
@@ -131,12 +129,12 @@ public class SimpleObjects {
 		c.setFamilyName("Bloggs");
 		c.setIsUsingPsuedonym(false);
 		c.setBirthDate(new LocalDate("1950-10-10"));
-		System.out.println(c.getBirthDate().toString());
+		//System.out.println(c.getBirthDate().toString());
 		c.setIsBirthDateAnEstimate(false);
-		c.setGenderCode(refData.getGenderCode("MALE"));
-		c.setCountryOfBirthCode(refData.getCountryCode("Australia"));
-		c.setLanguageSpokenAtHomeCode(refData.getLanguageCode("English"));
-		c.setAboriginalOrTorresStraitIslanderOriginCode(refData.getAboriginalOrTorresStraitIslanderOriginCode("YES"));
+		c.setGenderCode("MALE");
+		c.setCountryOfBirthCode("Australia");
+		c.setLanguageSpokenAtHomeCode("English");
+		c.setAboriginalOrTorresStraitIslanderOriginCode("YES");
 		c.setHasDisabilities(false);
 		cases.add(c);
 		return cases;

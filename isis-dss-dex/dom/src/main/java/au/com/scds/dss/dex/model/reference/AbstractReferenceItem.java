@@ -20,7 +20,7 @@ public abstract class AbstractReferenceItem {
 
 	protected String name;
 	protected String description;
-	protected int order;
+	protected int orderNumber;
 
 	@Property()
 	@MemberOrder(sequence = "1")
@@ -36,7 +36,7 @@ public abstract class AbstractReferenceItem {
 
 	@Property()
 	@MemberOrder(sequence = "2")
-	@Column(allowsNull = "false")
+	@Column(allowsNull = "true")
 	public String getDescription() {
 		return description;
 	}
@@ -48,12 +48,12 @@ public abstract class AbstractReferenceItem {
 	@Property(hidden = Where.EVERYWHERE)
 	@MemberOrder(sequence = "3")
 	@Column(allowsNull = "false")
-	public int getOrder() {
-		return order;
+	public int getOrderNumber() {
+		return orderNumber;
 	}
 
-	public void setOrder(int order) {
-		this.order = order;
+	public void setOrderNumber(int order) {
+		this.orderNumber = order;
 	}
 
 }

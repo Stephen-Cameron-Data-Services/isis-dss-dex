@@ -18,33 +18,13 @@
  */
 package domainapp.app.services.homepage;
 
-import java.util.List;
-
 import org.apache.isis.applib.annotation.ViewModel;
 
-import domainapp.dom.simple.SimpleObject;
-import domainapp.dom.simple.SimpleObjects;
 
 @ViewModel
 public class HomePageViewModel {
 
-    //region > title
     public String title() {
-        return getObjects().size() + " objects";
+        return "Dept. Social Services Data Exchange";
     }
-    //endregion
-
-    //region > object (collection)
-    @org.apache.isis.applib.annotation.HomePage
-    public List<SimpleObject> getObjects() {
-        return simpleObjects.listAll();
-    }
-    //endregion
-
-    //region > injected services
-
-    @javax.inject.Inject
-    SimpleObjects simpleObjects;
-
-    //endregion
 }

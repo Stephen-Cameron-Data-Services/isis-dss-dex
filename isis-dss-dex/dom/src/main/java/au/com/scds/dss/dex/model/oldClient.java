@@ -13,13 +13,13 @@ import org.joda.time.LocalDate;
 import au.com.scds.dss.dex.model.reference.AboriginalOrTorresStraitIslanderOrigin;
 import au.com.scds.dss.dex.model.reference.AccommodationType;
 import au.com.scds.dss.dex.model.reference.Ancestry;
-import au.com.scds.dss.dex.model.reference.CountryOfBirth;
+import au.com.scds.dss.dex.model.reference.Country;
 import au.com.scds.dss.dex.model.reference.DVACardStatus;
 import au.com.scds.dss.dex.model.reference.Disability;
 import au.com.scds.dss.dex.model.reference.Gender;
 import au.com.scds.dss.dex.model.reference.HouseholdComposition;
 import au.com.scds.dss.dex.model.reference.IncomeFrequency;
-import au.com.scds.dss.dex.model.reference.LanguageSpokenAtHome;
+import au.com.scds.dss.dex.model.reference.Language;
 import au.com.scds.dss.dex.model.reference.MainSourceOfIncome;
 import au.com.scds.dss.dex.model.reference.MigrationVisaCategory;
 import au.com.scds.dss.dex.model.reference.Month;
@@ -67,8 +67,8 @@ public class oldClient {
 	private String BirthDate; // 2014-02-24
 	private Boolean IsBirthDateAnEstimate;
 	private Gender GenderCode;
-	private CountryOfBirth CountryOfBirthCode;
-	private LanguageSpokenAtHome LanguageSpokenAtHomeCode;
+	private Country CountryOfBirthCode;
+	private Language LanguageSpokenAtHomeCode;
 	private AboriginalOrTorresStraitIslanderOrigin AboriginalOrTorresStraitIslanderOriginCode;
 	private Boolean HasDisabilities;
 	private List<Disability> Disabilities;
@@ -177,20 +177,20 @@ public class oldClient {
 	}
 
 	@XmlElement(required = true)
-	public CountryOfBirth getCountryOfBirthCode() {
+	public Country getCountryOfBirthCode() {
 		return CountryOfBirthCode;
 	}
 
-	public void setCountryOfBirthCode(CountryOfBirth countryOfBirthCode) {
+	public void setCountryOfBirthCode(Country countryOfBirthCode) {
 		CountryOfBirthCode = countryOfBirthCode;
 	}
 
 	@XmlElement(required = true)
-	public LanguageSpokenAtHome getLanguageSpokenAtHomeCode() {
+	public Language getLanguageSpokenAtHomeCode() {
 		return LanguageSpokenAtHomeCode;
 	}
 
-	public void setLanguageSpokenAtHomeCode(LanguageSpokenAtHome languageSpokenAtHomeCode) {
+	public void setLanguageSpokenAtHomeCode(Language languageSpokenAtHomeCode) {
 		LanguageSpokenAtHomeCode = languageSpokenAtHomeCode;
 	}
 

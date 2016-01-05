@@ -8,8 +8,8 @@ import javax.jdo.annotations.Query;
 
 @PersistenceCapable()
 @Inheritance(strategy = InheritanceStrategy.SUPERCLASS_TABLE)
-@Discriminator(value = "LanguageSpokenAtHome")
-@Query(name="all", language="JDOQL", value="SELECT FROM au.com.scds.dss.dex.model.reference.LanguageSpokenAtHome ORDER BY orderNumber ASC;")
-public class LanguageSpokenAtHome extends AbstractReferenceItem {
+@Discriminator(value = "Language")
+@Query(name="all", language="JDOQL", value="SELECT FROM au.com.scds.dss.dex.model.reference.Language ORDER BY orderNumber ASC;")
+public class Language extends AbstractReferenceItem {
 	
 }

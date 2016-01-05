@@ -16,7 +16,7 @@ import au.com.scds.dss.dex.model.reference.AccommodationType;
 import au.com.scds.dss.dex.model.reference.Ancestry;
 import au.com.scds.dss.dex.model.reference.AssessmentPhase;
 import au.com.scds.dss.dex.model.reference.AssessmentScoreType;
-import au.com.scds.dss.dex.model.reference.CountryOfBirth;
+import au.com.scds.dss.dex.model.reference.Country;
 import au.com.scds.dss.dex.model.reference.DVACardStatus;
 import au.com.scds.dss.dex.model.reference.Disability;
 import au.com.scds.dss.dex.model.reference.ExitReason;
@@ -24,7 +24,7 @@ import au.com.scds.dss.dex.model.reference.ExtraItem;
 import au.com.scds.dss.dex.model.reference.Gender;
 import au.com.scds.dss.dex.model.reference.HouseholdComposition;
 import au.com.scds.dss.dex.model.reference.IncomeFrequency;
-import au.com.scds.dss.dex.model.reference.LanguageSpokenAtHome;
+import au.com.scds.dss.dex.model.reference.Language;
 import au.com.scds.dss.dex.model.reference.MainSourceOfIncome;
 import au.com.scds.dss.dex.model.reference.MigrationVisaCategory;
 import au.com.scds.dss.dex.model.reference.MoneyBusinessCommunityEducationWorkshop;
@@ -62,8 +62,8 @@ public class ReferenceData {
 	}
 
 	@Action()
-	public List<CountryOfBirth> allCountry(){
-		return container.allMatches(new QueryDefault(CountryOfBirth.class, "all"));
+	public List<Country> allCountry(){
+		return container.allMatches(new QueryDefault(Country.class, "all"));
 	}
 
 	@Action()
@@ -102,8 +102,8 @@ public class ReferenceData {
 	}
 
 	@Action()
-	public List<LanguageSpokenAtHome> allLanguageSpokenAtHome(){
-		return container.allMatches(new QueryDefault(LanguageSpokenAtHome.class, "all"));
+	public List<Language> allLanguage(){
+		return container.allMatches(new QueryDefault(Language.class, "all"));
 	}
 
 	@Action()

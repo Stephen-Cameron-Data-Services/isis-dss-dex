@@ -2,10 +2,12 @@ package au.com.scds.dss.dex.model;
 
 import java.util.ArrayList;
 
+import javax.inject.Inject;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.datatype.DatatypeFactory;
 
+import org.apache.isis.applib.services.jaxb.JaxbService;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 import org.junit.Test;
@@ -13,6 +15,7 @@ import org.junit.Test;
 import au.com.scds.dss.dex.model.generated.Client;
 
 public class DEXFileTest {
+	
 
     public static class Name extends DEXFileTest{
 
@@ -50,7 +53,8 @@ public class DEXFileTest {
     		//jaxbMarshaller.marshal(c, file);
     		jaxbMarshaller.marshal(c, System.out);
     		
-    		cases.add(c);
+    		//cases.add(c);
+    		
         }
     }
 

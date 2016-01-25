@@ -21,7 +21,7 @@
 
     <groupId>au.com.scds</groupId>
     <artifactId>isis-dss-dex</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>Simple App</name>
 
@@ -32,7 +32,7 @@
     </prerequisites>
 
     <properties>
-        <isis.version>1.11.0-SNAPSHOT</isis.version>
+        <isis.version>1.11.1</isis.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -386,8 +386,8 @@
   <modules>
     <module>app</module>
     <module>dom</module>
-    <module>fixture</module>
-    <module>integtests</module>
+    <!--  module>fixture</module>
+    <module>integtests</module-->
     <module>webapp</module>
   </modules>
 </project>

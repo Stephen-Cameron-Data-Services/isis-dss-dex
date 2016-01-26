@@ -50,21 +50,12 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "CaseClient", propOrder = {
-    "clientId",
-    "referralSourceCode",
-    "reasonsForAssistance",
-    "exitReasonCode"
+    "clientId"
 })
 public class CaseClient {
 
     @XmlElement(name = "ClientId", required = true)
     protected String clientId;
-    @XmlElement(name = "ReferralSourceCode", nillable = true)
-    protected String referralSourceCode;
-    @XmlElement(name = "ReasonsForAssistance", nillable = true)
-    protected CaseClient.ReasonsForAssistance reasonsForAssistance;
-    @XmlElement(name = "ExitReasonCode", nillable = true)
-    protected String exitReasonCode;
 
     /**
      * Gets the value of the clientId property.
@@ -88,138 +79,6 @@ public class CaseClient {
      */
     public void setClientId(String value) {
         this.clientId = value;
-    }
-
-    /**
-     * Gets the value of the referralSourceCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getReferralSourceCode() {
-        return referralSourceCode;
-    }
-
-    /**
-     * Sets the value of the referralSourceCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setReferralSourceCode(String value) {
-        this.referralSourceCode = value;
-    }
-
-    /**
-     * Gets the value of the reasonsForAssistance property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CaseClient.ReasonsForAssistance }
-     *     
-     */
-    public CaseClient.ReasonsForAssistance getReasonsForAssistance() {
-        return reasonsForAssistance;
-    }
-
-    /**
-     * Sets the value of the reasonsForAssistance property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CaseClient.ReasonsForAssistance }
-     *     
-     */
-    public void setReasonsForAssistance(CaseClient.ReasonsForAssistance value) {
-        this.reasonsForAssistance = value;
-    }
-
-    /**
-     * Gets the value of the exitReasonCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getExitReasonCode() {
-        return exitReasonCode;
-    }
-
-    /**
-     * Sets the value of the exitReasonCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setExitReasonCode(String value) {
-        this.exitReasonCode = value;
-    }
-
-
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="ReasonForAssistance" type="{}ReasonForAssistance" maxOccurs="unbounded"/>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
-     * &lt;/complexType>
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "reasonForAssistance"
-    })
-    public static class ReasonsForAssistance {
-
-        @XmlElement(name = "ReasonForAssistance", required = true)
-        protected List<ReasonForAssistance> reasonForAssistance;
-
-        /**
-         * Gets the value of the reasonForAssistance property.
-         * 
-         * <p>
-         * This accessor method returns a reference to the live list,
-         * not a snapshot. Therefore any modification you make to the
-         * returned list will be present inside the JAXB object.
-         * This is why there is not a <CODE>set</CODE> method for the reasonForAssistance property.
-         * 
-         * <p>
-         * For example, to add a new item, do as follows:
-         * <pre>
-         *    getReasonForAssistance().add(newItem);
-         * </pre>
-         * 
-         * 
-         * <p>
-         * Objects of the following type(s) are allowed in the list
-         * {@link ReasonForAssistance }
-         * 
-         * 
-         */
-        public List<ReasonForAssistance> getReasonForAssistance() {
-            if (reasonForAssistance == null) {
-                reasonForAssistance = new ArrayList<ReasonForAssistance>();
-            }
-            return this.reasonForAssistance;
-        }
-
     }
 
 }

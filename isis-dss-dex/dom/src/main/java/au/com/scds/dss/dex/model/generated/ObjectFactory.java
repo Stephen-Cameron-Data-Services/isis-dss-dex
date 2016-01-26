@@ -260,9 +260,9 @@ public class ObjectFactory {
      * Create an instance of {@link CaseClient.ReasonsForAssistance }
      * 
      */
-    public CaseClient.ReasonsForAssistance createCaseClientReasonsForAssistance() {
+    /*public CaseClient.ReasonsForAssistance createCaseClientReasonsForAssistance() {
         return new CaseClient.ReasonsForAssistance();
-    }
+    }*/
 
     /**
      * Create an instance of {@link Client.Disabilities }

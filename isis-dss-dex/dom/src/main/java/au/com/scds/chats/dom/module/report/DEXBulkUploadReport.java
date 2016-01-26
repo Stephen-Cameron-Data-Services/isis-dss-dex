@@ -1,16 +1,21 @@
 package au.com.scds.chats.dom.module.report;
 
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.query.QueryDefault;
 import org.apache.isis.applib.services.jdosupport.IsisJdoSupport;
+import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
 import au.com.scds.chats.dom.module.activity.ActivityEvent;
+import au.com.scds.chats.dom.module.attendance.AttendanceList;
+import au.com.scds.chats.dom.module.attendance.Attended;
 import au.com.scds.chats.dom.module.general.Address;
 import au.com.scds.chats.dom.module.general.Person;
 import au.com.scds.chats.dom.module.general.Persons;
@@ -23,6 +28,7 @@ import au.com.scds.chats.dom.module.report.view.ParticipantActivityByMonth;
 import au.com.scds.dss.dex.model.ReferenceData;
 import au.com.scds.dss.dex.model.generated.Case;
 import au.com.scds.dss.dex.model.generated.CaseClient;
+import au.com.scds.dss.dex.model.generated.CaseClients;
 import au.com.scds.dss.dex.model.generated.Cases;
 import au.com.scds.dss.dex.model.generated.Client;
 import au.com.scds.dss.dex.model.generated.Clients;
@@ -30,6 +36,8 @@ import au.com.scds.dss.dex.model.generated.DEXFileUpload;
 import au.com.scds.dss.dex.model.generated.ObjectFactory;
 import au.com.scds.dss.dex.model.generated.ResidentialAddress;
 import au.com.scds.dss.dex.model.generated.Session;
+import au.com.scds.dss.dex.model.generated.SessionClient;
+import au.com.scds.dss.dex.model.generated.SessionClients;
 import au.com.scds.dss.dex.model.generated.Sessions;
 
 public class DEXBulkUploadReport {
@@ -40,24 +48,27 @@ public class DEXBulkUploadReport {
 	private Sessions sessions;
 	private Integer year;
 	private Integer month;
+	private DateTime startDateTime;
+	private DateTime endDateTime;
 	private LocalDate bornBeforeDate;
 	private Region region;
 	private DomainObjectContainer container;
 	private Persons persons;
 	private IsisJdoSupport isisJdoSupport;
 	private ReferenceData refData;
-	private Map<String, List<ParticipantActivityByMonth>> participations;
+	private Map<String, Map<String, ParticipantActivityByMonth>> participations;
 
 	private DEXBulkUploadReport() {
 	}
 
-	public DEXBulkUploadReport(Persons persons, DomainObjectContainer container, ReferenceData refData,
-			Integer year, Integer month, Region region) {
+	public DEXBulkUploadReport(Persons persons, DomainObjectContainer container, ReferenceData refData, Integer year,
+			Integer month, Region region) {
 		this.fileUpload = new DEXFileUpload();
 		this.clients = new Clients();
 		this.cases = new Cases();
 		this.sessions = new Sessions();
-		this.participations = new HashMap<String, List<ParticipantActivityByMonth>>();
+
+		this.participations = new HashMap<String, Map<String, ParticipantActivityByMonth>>();
 		this.container = container;
 		this.persons = persons;
 		this.refData = refData;
@@ -65,12 +76,21 @@ public class DEXBulkUploadReport {
 		this.month = month;
 		this.bornBeforeDate = new LocalDate(year, month, 1).minusYears(65);
 		this.region = region;
+
+		// set of the bounds for finding ActivityEvents
+		this.startDateTime = new DateTime(year, month, 1, 0, 0, 0);
+		this.endDateTime = startDateTime.dayOfMonth().withMaximumValue();
 	}
 
 	public DEXFileUpload build() {
 		getCases();
 		getClients();
 		getSessions();
+		if (cases.getCase().size() > 0) {
+			fileUpload.getClientsOrCasesOrSessions().add(clients);
+			fileUpload.getClientsOrCasesOrSessions().add(cases);
+			fileUpload.getClientsOrCasesOrSessions().add(sessions);
+		}
 		return fileUpload;
 	}
 
@@ -80,17 +100,19 @@ public class DEXBulkUploadReport {
 	 */
 	private void getCases() {
 		// activities
-		List<ParticipantActivityByMonth> monthlyActivity = container.allMatches(
-				new QueryDefault(ParticipantActivityByMonth.class, "allParticipantActivityForMonthAndRegion",
-						"yearMonth", this.year.toString() + this.month.toString(), "region", this.region));
+		List<ParticipantActivityByMonth> monthlyActivity = container.allMatches(new QueryDefault(
+				ParticipantActivityByMonth.class, "allParticipantActivityForMonthAndRegion", "yearMonth",
+				Integer.valueOf(this.year.toString() + this.month.toString()), "region", this.region.getName()));
 		// sort by Activity and Participants (for CaseClients within Cases)
 		for (ParticipantActivityByMonth p : monthlyActivity) {
 			if (p.getBirthDate().isBefore(this.bornBeforeDate)) {
+				String personKey = p.getFirstName().trim() + "_" + p.getSurname().trim() + "_"
+						+ p.getBirthDate().toString("dd-MM-YYYY");
 				if (participations.containsKey(p.getActivityName())) {
-					participations.get(p.getActivityName()).add(p);
+					participations.get(p.getActivityName()).put(personKey, p);
 				} else {
-					ArrayList<ParticipantActivityByMonth> t = new ArrayList<>();
-					t.add(p);
+					Map<String, ParticipantActivityByMonth> t = new HashMap<>();
+					t.put(personKey, p);
 					participations.put(p.getActivityName(), t);
 				}
 			}
@@ -98,9 +120,9 @@ public class DEXBulkUploadReport {
 		// calls
 		List<CallsDurationByParticipantAndMonth> monthlyCalls = container.allMatches(new QueryDefault(
 				CallsDurationByParticipantAndMonth.class, "allCallsDurationByParticipantForMonthAndRegion", "yearMonth",
-				this.year.toString() + this.month.toString(), "region", this.region));
+				Integer.valueOf(this.year.toString() + this.month.toString()), "region", this.region.getName()));
 		// add these calls to the list as fake activities
-		ArrayList<ParticipantActivityByMonth> chatsCalls = new ArrayList<>();
+		Map<String, ParticipantActivityByMonth> chatsCalls = new HashMap<>();
 		for (CallsDurationByParticipantAndMonth c : monthlyCalls) {
 			if (c.getBirthDate().isBefore(this.bornBeforeDate)) {
 				ParticipantActivityByMonth t = new ParticipantActivityByMonth();
@@ -111,22 +133,29 @@ public class DEXBulkUploadReport {
 				t.setHoursAttended(c.getCallHoursTotal());
 				t.setRegionName(c.getRegionName());
 				t.setParticipantStatus(c.getParticipantStatus());
-				chatsCalls.add(t);
+				chatsCalls.put(c.getFirstName().trim() + "_" + c.getSurname().trim() + "_"
+						+ c.getBirthDate().toString("dd-MM-YYYY"), t);
 			}
 		}
 		participations.put("Chats Calls", chatsCalls);
 		// create the Cases
-		for (List<ParticipantActivityByMonth> activityParticipants : participations.values()) {
-			Case c = new Case();
-			cases.getCase().add(c);
-			c.setCaseId(activityParticipants.get(0).getActivityName());
-			c.setOutletActivityId(9999999);
-			c.setTotalNumberOfUnidentifiedClients(0);
-			for (ParticipantActivityByMonth p : activityParticipants) {
-				CaseClient cc = new CaseClient();
-				c.getCaseClients().getCaseClient().add(cc);
-				cc.setClientId(p.getFirstName() + "_" + p.getSurname() + "_" + p.getBirthDate().toString("DD-MM-YYYY"));
-				// TODO cc.setExitReasonCode(p.getStatus());
+		for (String activityName : participations.keySet()) {
+			Map<String, ParticipantActivityByMonth> activityParticipants = participations.get(activityName);
+			if (activityParticipants.size() > 0) {
+				Case c = new Case();
+				cases.getCase().add(c);
+				c.setCaseClients(new CaseClients());
+				c.setCaseId(activityName);
+				c.setOutletActivityId(9999999);
+				c.setTotalNumberOfUnidentifiedClients(0);
+				for (Entry<String, ParticipantActivityByMonth> p : activityParticipants.entrySet()) {
+					CaseClient cc = new CaseClient();
+					c.getCaseClients().getCaseClient().add(cc);
+					cc.setClientId(p.getKey());
+					// TODO cc.setExitReasonCode(p.getStatus());
+				}
+			} else {
+				System.out.println("Activity with No Participants for: " + activityName);
 			}
 		}
 	}
@@ -136,19 +165,17 @@ public class DEXBulkUploadReport {
 	 */
 	private void getClients() {
 		// process the participations to produce a unique list of participants
-		// TODO this is fine for the first time but we actually need a list
-		// of new or changed participants
 		Map<String, Person> temp = new HashMap<>();
-		for (List<ParticipantActivityByMonth> list : participations.values()) {
-			for (ParticipantActivityByMonth pa : list) {
-				String key = pa.getFirstName() + pa.getSurname() + pa.getBirthDate();
-				if (!temp.containsKey(key)) {
-					Person p = persons.findPerson(pa.getFirstName() , pa.getSurname(), pa.getBirthDate());
-					temp.put(key, p);
+		for (Map<String, ParticipantActivityByMonth> list : participations.values()) {
+			for (Entry<String, ParticipantActivityByMonth> entry : list.entrySet()) {
+				if (!temp.containsKey(entry.getKey())) {
+					ParticipantActivityByMonth pa = entry.getValue();
+					Person p = persons.findPerson(pa.getFirstName(), pa.getSurname(), pa.getBirthDate());
+					temp.put(entry.getKey(), p);
 				}
 			}
 		}
-		// create the Clients list
+		// create the DEX 'Clients' listing
 		for (String key : temp.keySet()) {
 			Person p = temp.get(key);
 			Client c = new Client();
@@ -179,27 +206,79 @@ public class DEXBulkUploadReport {
 	}
 
 	/*
-	 * Find Attendances at ActivityEvents grouped by Participant Add any Calls
-	 * grouped by Participant in the period and region
+	 * Find Attendances at ActivityEvents Add any Calls in the period and region
 	 */
 	private void getSessions() {
-		// TODO Auto-generated method stub
-
+		// activities
+		List<ActivityEvent> activities = container
+				.allMatches(new QueryDefault(ActivityEvent.class, "findActivitiesInPeriodAndRegion", "startDateTime",
+						this.startDateTime, "endDateTime", this.endDateTime, "region", this.region));
+		for (ActivityEvent activity : activities) {
+			// see if its an ActivityEvent with recorded attendance (see the
+			// view from which its derived)
+			if (participations.containsKey(activity.getName())) {
+				// process the attendance list for the activity against
+				// the participants list already found as that list
+				// contains only the 65 years and over group
+				Map<String, ParticipantActivityByMonth> agedList = participations.get(activity.getName());
+				if (agedList.size() > 0) {
+					// compare the attendances for this ActivityEvent to see
+					// if any of them are in the right age group, we might have
+					// some RecurringActivity 'sessions' that had no > 65
+					// present
+					boolean include = false;
+					AttendanceList attendances = activity.getAttendances();
+					for (Attended attended : attendances.attendeds) {
+						Person p = attended.getParticipant().getPerson();
+						String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
+								+ p.getBirthdate().toString("dd-MM-YYYY");
+						if (agedList.containsKey(personKey)) {
+							include = true;
+							break;
+						}
+					}
+					// include this activity as a DEX session?
+					if (include) {
+						Session session = new Session();
+						this.sessions.getSession().add(session);
+						session.setSessionId(
+								activity.getName().trim() + " " + activity.getStartDateTime().toString("dd-MM-YYYY"));
+						session.setCaseId(activity.getName().trim());
+						SessionClients clients = new SessionClients();
+						Integer totalMinutes = 0;
+						for (Attended attended : attendances.attendeds) {
+							if (attended.getWasAttended().equals("YES")) {
+								Person p = attended.getParticipant().getPerson();
+								String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
+										+ p.getBirthdate().toString("dd-MM-YYYY");
+								if (agedList.containsKey(personKey)) {
+									SessionClient client = new SessionClient();
+									clients.getSessionClient().add(client);
+									client.setClientId(personKey);
+									totalMinutes = totalMinutes + attended.getAttendanceIntervalInMinutes();
+								}
+							}
+						}
+						session.setTimeMinutes(totalMinutes);
+						session.setSessionClients(clients);
+					}
+				}
+			}
+		}
+		//Don't forget about the Call time.
 	}
 
 	private String makeSLK(Person p) {
 		String firstname = p.getFirstname();
 		String surname = p.getSurname();
-		String birthdate = p.getBirthdate().toString("YYYYMMDD");
 		StringBuffer buffer = new StringBuffer();
-		buffer.append(surname.substring(1, 1).toUpperCase());
-		buffer.append(surname.substring(2, 2).toUpperCase());
-		buffer.append(surname.substring(4, 4).toUpperCase());
-		buffer.append(firstname.substring(1, 1).toUpperCase());
-		buffer.append(firstname.substring(2, 2).toUpperCase());
-		buffer.append(birthdate.substring(0, 3));
-		buffer.append(birthdate.substring(4, 5));
-		buffer.append(birthdate.substring(6, 7));
+		buffer.append(surname.substring(1, 2).toUpperCase());
+		buffer.append(surname.substring(2, 3).toUpperCase());
+		if (surname.length() > 4)
+			buffer.append(surname.substring(4, 5).toUpperCase());
+		buffer.append(firstname.substring(1, 2).toUpperCase());
+		buffer.append(firstname.substring(2, 3).toUpperCase());
+		buffer.append(p.getBirthdate().toString("ddMMYYYY"));
 		buffer.append(p.getSex() == Sex.Male ? "1" : "2");
 		return buffer.toString();
 	}

@@ -45,7 +45,4 @@ public class DEXFiles {
 
 	@Inject
 	JaxbService jaxbService;
-
-	@Inject
-	IsisJdoSupport isisJdoSupport;
 }

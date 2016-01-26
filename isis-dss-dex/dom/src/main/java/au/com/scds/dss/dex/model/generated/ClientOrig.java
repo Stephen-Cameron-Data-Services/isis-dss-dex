@@ -78,6 +78,36 @@ import org.joda.time.LocalDate;
  */
 @XmlRootElement()
 @XmlAccessorType(XmlAccessType.FIELD)
+/*@XmlType(name = "Client", propOrder = {
+	    "clientId",
+	    "slk",
+	    "consentToProvideDetails",
+	    "consentedForFutureContacts",
+	    "givenName",
+	    "familyName",
+	    "isUsingPsuedonym",
+	    "birthDate",
+	    "isBirthDateAnEstimate",
+	    "genderCode",
+	    "countryOfBirthCode",
+	    "languageSpokenAtHomeCode",
+	    "aboriginalOrTorresStraitIslanderOriginCode",
+	    "hasDisabilities",
+	    "disabilities",
+	    "accommodationTypeCode",
+	    "dvaCardStatusCode",
+	    "hasCarer",
+	    "residentialAddress",
+	    "isHomeless",
+	    "householdCompositionCode",
+	    "mainSourceOfIncomeCode",
+	    "incomeFrequencyCode",
+	    "incomeAmount",
+	    "firstArrivalYear",
+	    "firstArrivalMonth",
+	    "migrationVisaCategoryCode",
+	    "ancestryCode"
+	})*/
 @XmlType(name = "Client", propOrder = {
     "clientId",
     "slk",
@@ -92,10 +122,9 @@ import org.joda.time.LocalDate;
     "countryOfBirthCode",
     "languageSpokenAtHomeCode",
     "aboriginalOrTorresStraitIslanderOriginCode",
-    "hasDisabilities",
     "residentialAddress"
 })
-public class Client {
+public class ClientOrig {
 
     @XmlElement(name = "ClientId", required = true)
     protected String clientId;
@@ -127,8 +156,34 @@ public class Client {
     protected String aboriginalOrTorresStraitIslanderOriginCode;
     @XmlElement(name = "HasDisabilities")
     protected boolean hasDisabilities;
+    //@XmlElement(name = "Disabilities", nillable = true)
+    //protected Client.Disabilities disabilities;
+    //@XmlElement(name = "AccommodationTypeCode")
+    //protected String accommodationTypeCode;
+    //@XmlElement(name = "DVACardStatusCode")
+    //protected String dvaCardStatusCode;
+    //@XmlElement(name = "HasCarer", nillable = true)
+    //protected Boolean hasCarer;
     @XmlElement(name = "ResidentialAddress", required = true)
     protected ResidentialAddress residentialAddress;
+    //@XmlElement(name = "IsHomeless", nillable = true)
+    //protected Boolean isHomeless;
+    //@XmlElement(name = "HouseholdCompositionCode", nillable = true)
+    //protected String householdCompositionCode;
+    //@XmlElement(name = "MainSourceOfIncomeCode", nillable = true)
+    //protected String mainSourceOfIncomeCode;
+    //@XmlElement(name = "IncomeFrequencyCode", nillable = true)
+    //protected String incomeFrequencyCode;
+    //@XmlElement(name = "IncomeAmount", nillable = true)
+    //protected Integer incomeAmount;
+    //@XmlElement(name = "FirstArrivalYear", nillable = true)
+    //protected Integer firstArrivalYear;
+    //@XmlElement(name = "FirstArrivalMonth", nillable = true)
+    //protected Month firstArrivalMonth;
+    //@XmlElement(name = "MigrationVisaCategoryCode", nillable = true)
+    //protected String migrationVisaCategoryCode;
+    //@XmlElement(name = "AncestryCode", nillable = true)
+    //protected String ancestryCode;
 
     /**
      * Gets the value of the clientId property.
@@ -427,6 +482,102 @@ public class Client {
     }
 
     /**
+     * Gets the value of the disabilities property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Client.Disabilities }
+     *     
+     */
+    /*public Client.Disabilities getDisabilities() {
+        return disabilities;
+    }*/
+
+    /**
+     * Sets the value of the disabilities property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Client.Disabilities }
+     *     
+     */
+    /*public void setDisabilities(Client.Disabilities value) {
+        this.disabilities = value;
+    }*/
+
+    /**
+     * Gets the value of the accommodationTypeCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getAccommodationTypeCode() {
+        return accommodationTypeCode;
+    }*/
+
+    /**
+     * Sets the value of the accommodationTypeCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setAccommodationTypeCode(String value) {
+        this.accommodationTypeCode = value;
+    }*/
+
+    /**
+     * Gets the value of the dvaCardStatusCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getDVACardStatusCode() {
+        return dvaCardStatusCode;
+    }*/
+
+    /**
+     * Sets the value of the dvaCardStatusCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setDVACardStatusCode(String value) {
+        this.dvaCardStatusCode = value;
+    }*/
+
+    /**
+     * Gets the value of the hasCarer property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    /*public Boolean isHasCarer() {
+        return hasCarer;
+    }*/
+
+    /**
+     * Sets the value of the hasCarer property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    /*public void setHasCarer(Boolean value) {
+        this.hasCarer = value;
+    }*/
+
+    /**
      * Gets the value of the residentialAddress property.
      * 
      * @return
@@ -449,6 +600,223 @@ public class Client {
     public void setResidentialAddress(ResidentialAddress value) {
         this.residentialAddress = value;
     }
+
+    /**
+     * Gets the value of the isHomeless property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    /*public Boolean isIsHomeless() {
+        return isHomeless;
+    }*/
+
+    /**
+     * Sets the value of the isHomeless property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    /*public void setIsHomeless(Boolean value) {
+        this.isHomeless = value;
+    }*/
+
+    /**
+     * Gets the value of the householdCompositionCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getHouseholdCompositionCode() {
+        return householdCompositionCode;
+    }*/
+
+    /**
+     * Sets the value of the householdCompositionCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setHouseholdCompositionCode(String value) {
+        this.householdCompositionCode = value;
+    }*/
+
+    /**
+     * Gets the value of the mainSourceOfIncomeCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getMainSourceOfIncomeCode() {
+        return mainSourceOfIncomeCode;
+    }*/
+
+    /**
+     * Sets the value of the mainSourceOfIncomeCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setMainSourceOfIncomeCode(String value) {
+        this.mainSourceOfIncomeCode = value;
+    }*/
+
+    /**
+     * Gets the value of the incomeFrequencyCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getIncomeFrequencyCode() {
+        return incomeFrequencyCode;
+    }*/
+
+    /**
+     * Sets the value of the incomeFrequencyCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setIncomeFrequencyCode(String value) {
+        this.incomeFrequencyCode = value;
+    }*/
+
+    /**
+     * Gets the value of the incomeAmount property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    /*public Integer getIncomeAmount() {
+        return incomeAmount;
+    }*/
+
+    /**
+     * Sets the value of the incomeAmount property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    /*public void setIncomeAmount(Integer value) {
+        this.incomeAmount = value;
+    }*/
+
+    /**
+     * Gets the value of the firstArrivalYear property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    /*public Integer getFirstArrivalYear() {
+        return firstArrivalYear;
+    }*/
+
+    /**
+     * Sets the value of the firstArrivalYear property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    /*public void setFirstArrivalYear(Integer value) {
+        this.firstArrivalYear = value;
+    }*/
+
+    /**
+     * Gets the value of the firstArrivalMonth property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Month }
+     *     
+     */
+    /*public Month getFirstArrivalMonth() {
+        return firstArrivalMonth;
+    }*/
+
+    /**
+     * Sets the value of the firstArrivalMonth property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Month }
+     *     
+     */
+    /*public void setFirstArrivalMonth(Month value) {
+        this.firstArrivalMonth = value;
+    }*/
+
+    /**
+     * Gets the value of the migrationVisaCategoryCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getMigrationVisaCategoryCode() {
+        return migrationVisaCategoryCode;
+    }*/
+
+    /**
+     * Sets the value of the migrationVisaCategoryCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setMigrationVisaCategoryCode(String value) {
+        this.migrationVisaCategoryCode = value;
+    }*/
+
+    /**
+     * Gets the value of the ancestryCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    /*public String getAncestryCode() {
+        return ancestryCode;
+    }*/
+
+    /**
+     * Sets the value of the ancestryCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    /*public void setAncestryCode(String value) {
+        this.ancestryCode = value;
+    }*/
+
 
     /**
      * <p>Java class for anonymous complex type.

@@ -57,6 +57,11 @@
             <scope>test</scope>
         </dependency>
 
+		<dependency>
+			<groupId>org.apache.isis.core</groupId>
+			<artifactId>isis-core-integtestsupport</artifactId>
+		</dependency>
+		
         <!-- Bytecode libraries (for mocking) -->
         <dependency>
             <groupId>org.objenesis</groupId>

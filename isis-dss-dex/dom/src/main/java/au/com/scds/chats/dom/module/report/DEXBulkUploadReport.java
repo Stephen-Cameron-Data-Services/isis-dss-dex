@@ -228,7 +228,7 @@ public class DEXBulkUploadReport {
 					// present
 					boolean include = false;
 					AttendanceList attendances = activity.getAttendances();
-					for (Attended attended : attendances.attendeds) {
+					for (Attended attended : attendances.getAttendeds()) {
 						Person p = attended.getParticipant().getPerson();
 						String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
 								+ p.getBirthdate().toString("dd-MM-YYYY");
@@ -246,7 +246,7 @@ public class DEXBulkUploadReport {
 						session.setCaseId(activity.getName().trim());
 						SessionClients clients = new SessionClients();
 						Integer totalMinutes = 0;
-						for (Attended attended : attendances.attendeds) {
+						for (Attended attended : attendances.getAttendeds()) {
 							if (attended.getWasAttended().equals("YES")) {
 								Person p = attended.getParticipant().getPerson();
 								String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"

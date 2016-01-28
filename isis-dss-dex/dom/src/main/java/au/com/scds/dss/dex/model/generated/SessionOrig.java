@@ -66,10 +66,18 @@ import org.joda.time.LocalDate;
     "sessionId",
     "caseId",
     "sessionDate",
+    "serviceTypeId",
+    "totalNumberOfUnidentifiedClients",
+    "feesCharged",
+    "moneyBusinessCommunityEducationWorkshopCode",
+    "interpreterPresent",
     "sessionClients",
-    "timeMinutes"
+    "timeMinutes",
+    "totalCost",
+    "quantity",
+    "extraItems"
 })
-public class Session {
+public class SessionOrig {
 
     @XmlElement(name = "SessionId", required = true)
     protected String sessionId;
@@ -79,9 +87,26 @@ public class Session {
     @XmlJavaTypeAdapter(Adapter1 .class)
     @XmlSchemaType(name = "date")
     protected LocalDate sessionDate;
+    @XmlElement(name = "ServiceTypeId")
+    protected int serviceTypeId;
+    @XmlElement(name = "TotalNumberOfUnidentifiedClients")
+    protected int totalNumberOfUnidentifiedClients;
+    @XmlElement(name = "FeesCharged", nillable = true)
+    protected BigDecimal feesCharged;
+    @XmlElement(name = "MoneyBusinessCommunityEducationWorkshopCode")
+    protected String moneyBusinessCommunityEducationWorkshopCode;
+    @XmlElement(name = "InterpreterPresent", nillable = true)
+    protected Boolean interpreterPresent;
+    @XmlElement(name = "SessionClients", nillable = true)
     protected SessionClients sessionClients;
     @XmlElement(name = "TimeMinutes", nillable = true)
     protected Integer timeMinutes;
+    @XmlElement(name = "TotalCost", nillable = true)
+    protected Integer totalCost;
+    @XmlElement(name = "Quantity", nillable = true)
+    protected Integer quantity;
+    @XmlElement(name = "ExtraItems", nillable = true)
+    protected SessionOrig.ExtraItems extraItems;
 
     /**
      * Gets the value of the sessionId property.
@@ -156,6 +181,110 @@ public class Session {
     }
 
     /**
+     * Gets the value of the serviceTypeId property.
+     * 
+     */
+    public int getServiceTypeId() {
+        return serviceTypeId;
+    }
+
+    /**
+     * Sets the value of the serviceTypeId property.
+     * 
+     */
+    public void setServiceTypeId(int value) {
+        this.serviceTypeId = value;
+    }
+
+    /**
+     * Gets the value of the totalNumberOfUnidentifiedClients property.
+     * 
+     */
+    public int getTotalNumberOfUnidentifiedClients() {
+        return totalNumberOfUnidentifiedClients;
+    }
+
+    /**
+     * Sets the value of the totalNumberOfUnidentifiedClients property.
+     * 
+     */
+    public void setTotalNumberOfUnidentifiedClients(int value) {
+        this.totalNumberOfUnidentifiedClients = value;
+    }
+
+    /**
+     * Gets the value of the feesCharged property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public BigDecimal getFeesCharged() {
+        return feesCharged;
+    }
+
+    /**
+     * Sets the value of the feesCharged property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigDecimal }
+     *     
+     */
+    public void setFeesCharged(BigDecimal value) {
+        this.feesCharged = value;
+    }
+
+    /**
+     * Gets the value of the moneyBusinessCommunityEducationWorkshopCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getMoneyBusinessCommunityEducationWorkshopCode() {
+        return moneyBusinessCommunityEducationWorkshopCode;
+    }
+
+    /**
+     * Sets the value of the moneyBusinessCommunityEducationWorkshopCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setMoneyBusinessCommunityEducationWorkshopCode(String value) {
+        this.moneyBusinessCommunityEducationWorkshopCode = value;
+    }
+
+    /**
+     * Gets the value of the interpreterPresent property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Boolean }
+     *     
+     */
+    public Boolean isInterpreterPresent() {
+        return interpreterPresent;
+    }
+
+    /**
+     * Sets the value of the interpreterPresent property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Boolean }
+     *     
+     */
+    public void setInterpreterPresent(Boolean value) {
+        this.interpreterPresent = value;
+    }
+
+    /**
      * Gets the value of the sessionClients property.
      * 
      * @return
@@ -201,6 +330,78 @@ public class Session {
      */
     public void setTimeMinutes(Integer value) {
         this.timeMinutes = value;
+    }
+
+    /**
+     * Gets the value of the totalCost property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    public Integer getTotalCost() {
+        return totalCost;
+    }
+
+    /**
+     * Sets the value of the totalCost property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    public void setTotalCost(Integer value) {
+        this.totalCost = value;
+    }
+
+    /**
+     * Gets the value of the quantity property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Integer }
+     *     
+     */
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    /**
+     * Sets the value of the quantity property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Integer }
+     *     
+     */
+    public void setQuantity(Integer value) {
+        this.quantity = value;
+    }
+
+    /**
+     * Gets the value of the extraItems property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link SessionOrig.ExtraItems }
+     *     
+     */
+    public SessionOrig.ExtraItems getExtraItems() {
+        return extraItems;
+    }
+
+    /**
+     * Sets the value of the extraItems property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link SessionOrig.ExtraItems }
+     *     
+     */
+    public void setExtraItems(SessionOrig.ExtraItems value) {
+        this.extraItems = value;
     }
 
 

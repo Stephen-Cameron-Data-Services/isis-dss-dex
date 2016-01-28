@@ -89,7 +89,7 @@ public class IsisChatsSystem extends IntegrationTestAbstract {
 	@Test
 	public void DEXReport() throws Exception {
 		FileOutputStream file = new FileOutputStream(new File("dexbulktest.xml"));
-		DEXBulkUploadReport report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("NORTH-WEST"));
+		DEXBulkUploadReport report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
 		//System.out.print(jaxbService.toXml(report.build()));
 		file.write(jaxbService.toXml(report.build()).getBytes());
 	}

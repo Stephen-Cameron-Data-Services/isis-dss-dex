@@ -16,6 +16,7 @@ import org.joda.time.LocalDate;
 import au.com.scds.chats.dom.module.activity.ActivityEvent;
 import au.com.scds.chats.dom.module.attendance.AttendanceList;
 import au.com.scds.chats.dom.module.attendance.Attended;
+import au.com.scds.chats.dom.module.call.ScheduledCall;
 import au.com.scds.chats.dom.module.general.Address;
 import au.com.scds.chats.dom.module.general.Person;
 import au.com.scds.chats.dom.module.general.Persons;
@@ -127,8 +128,8 @@ public class DEXBulkUploadReport {
 			if (c.getBirthDate().isBefore(this.bornBeforeDate)) {
 				ParticipantActivityByMonth t = new ParticipantActivityByMonth();
 				t.setActivityName("Chats Calls");
-				t.setFirstName(c.getFirstName());
-				t.setSurname(c.getSurname());
+				t.setFirstName(c.getFirstName().trim());
+				t.setSurname(c.getSurname().trim());
 				t.setBirthDate(c.getBirthDate());
 				t.setHoursAttended(c.getCallHoursTotal());
 				t.setRegionName(c.getRegionName());
@@ -145,7 +146,7 @@ public class DEXBulkUploadReport {
 				Case c = new Case();
 				cases.getCase().add(c);
 				c.setCaseClients(new CaseClients());
-				c.setCaseId(activityName);
+				c.setCaseId(activityName + " " + region.getName());
 				c.setOutletActivityId(9999999);
 				c.setTotalNumberOfUnidentifiedClients(0);
 				for (Entry<String, ParticipantActivityByMonth> p : activityParticipants.entrySet()) {
@@ -241,9 +242,9 @@ public class DEXBulkUploadReport {
 					if (include) {
 						Session session = new Session();
 						this.sessions.getSession().add(session);
-						session.setSessionId(
-								activity.getName().trim() + " " + activity.getStartDateTime().toString("dd-MM-YYYY"));
-						session.setCaseId(activity.getName().trim());
+						session.setSessionId(activity.getName().trim() + " " + region.getName() + " "
+								+ activity.getStartDateTime().toString("dd-MM-YYYY"));
+						session.setCaseId(activity.getName().trim() + " " + region.getName());
 						SessionClients clients = new SessionClients();
 						Integer totalMinutes = 0;
 						for (Attended attended : attendances.getAttendeds()) {
@@ -265,19 +266,67 @@ public class DEXBulkUploadReport {
 				}
 			}
 		}
-		//Don't forget about the Call time.
+		// Calls
+		// Loop through an ordered list of ScheduledCalls making a DEX Session
+		// for each day with a completed call
+		List<ScheduledCall> calls = container
+				.allMatches(new QueryDefault(ScheduledCall.class, "findCompletedScheduledCallsInPeriodAndRegion",
+						"startDateTime", this.startDateTime, "endDateTime", this.endDateTime, "region", this.region));
+		int currentDay = 0;
+		Integer totalMinutes = 0;
+		Session session = null;
+		SessionClients clients = null;
+		for (ScheduledCall call : calls) {
+			Person p = call.getParticipant().getPerson();
+			String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
+					+ p.getBirthdate().toString("dd-MM-YYYY");
+			if (p.getBirthdate().isBefore(this.bornBeforeDate)) {
+				if (currentDay == 0 || call.getStartDateTime().dayOfMonth().get() > currentDay) {
+					if(currentDay > 0 )
+						session.setTimeMinutes(totalMinutes);
+					//start new session
+					session = new Session();
+					this.sessions.getSession().add(session);
+					session.setSessionId(
+							"Chats Calls " + region.getName() + " " + call.getStartDateTime().toString("dd-MM-YYYY"));
+					session.setCaseId("Chats Calls " + region.getName());
+					clients = new SessionClients();
+					session.setSessionClients(clients);
+					//reset 
+					currentDay = call.getStartDateTime().dayOfMonth().get();
+					totalMinutes = 0;
+				}
+				SessionClient client = new SessionClient();
+				clients.getSessionClient().add(client);
+				client.setClientId(personKey);
+				totalMinutes = totalMinutes + call.getCallIntervalInMinutes();
+			}
+		}
+		//set the time on the last session created
+		if(session != null)
+			session.setTimeMinutes(totalMinutes);
 	}
 
 	private String makeSLK(Person p) {
-		String firstname = p.getFirstname();
-		String surname = p.getSurname();
+		String firstname = p.getFirstname().trim();
+		String surname = p.getSurname().trim();
 		StringBuffer buffer = new StringBuffer();
+		// surname
 		buffer.append(surname.substring(1, 2).toUpperCase());
-		buffer.append(surname.substring(2, 3).toUpperCase());
+		if (surname.length() > 2)
+			buffer.append(surname.substring(2, 3).toUpperCase());
+		else
+			buffer.append("2");
 		if (surname.length() > 4)
 			buffer.append(surname.substring(4, 5).toUpperCase());
+		else
+			buffer.append("2");
+		// firstname
 		buffer.append(firstname.substring(1, 2).toUpperCase());
-		buffer.append(firstname.substring(2, 3).toUpperCase());
+		if (firstname.length() > 2)
+			buffer.append(firstname.substring(2, 3).toUpperCase());
+		else
+			buffer.append("2");
 		buffer.append(p.getBirthdate().toString("ddMMYYYY"));
 		buffer.append(p.getSex() == Sex.Male ? "1" : "2");
 		return buffer.toString();

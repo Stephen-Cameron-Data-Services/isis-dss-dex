@@ -49,12 +49,18 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SessionClient", propOrder = {
-    "clientId"
+    "clientId",
+    "participationCode",
+    "clientReferralOutWithPurpose"
 })
-public class SessionClient {
+public class SessionClientOrig {
 
     @XmlElement(name = "ClientId", required = true)
     protected String clientId;
+    @XmlElement(name = "ParticipationCode", required = true)
+    protected String participationCode;
+    @XmlElement(name = "ClientReferralOutWithPurpose", nillable = true)
+    protected SessionClientOrig.ClientReferralOutWithPurpose clientReferralOutWithPurpose;
 
     /**
      * Gets the value of the clientId property.
@@ -80,6 +86,53 @@ public class SessionClient {
         this.clientId = value;
     }
 
+    /**
+     * Gets the value of the participationCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getParticipationCode() {
+        return participationCode;
+    }
+
+    /**
+     * Sets the value of the participationCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setParticipationCode(String value) {
+        this.participationCode = value;
+    }
+
+    /**
+     * Gets the value of the clientReferralOutWithPurpose property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link SessionClientOrig.ClientReferralOutWithPurpose }
+     *     
+     */
+    public SessionClientOrig.ClientReferralOutWithPurpose getClientReferralOutWithPurpose() {
+        return clientReferralOutWithPurpose;
+    }
+
+    /**
+     * Sets the value of the clientReferralOutWithPurpose property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link SessionClientOrig.ClientReferralOutWithPurpose }
+     *     
+     */
+    public void setClientReferralOutWithPurpose(SessionClientOrig.ClientReferralOutWithPurpose value) {
+        this.clientReferralOutWithPurpose = value;
+    }
 
 
     /**

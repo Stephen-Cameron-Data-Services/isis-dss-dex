@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dexFileUpload>
+    <Sessions>
+        <Session>
+            <SessionId>Crafty Chatsters_NORTH_04-11-2015</SessionId>
+            <CaseId>Crafty Chatsters NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Robin_Wright_24-05-1923</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Barbara_Sattler_01-09-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Free Flick: Pitch Perfect 2_NORTH_09-11-2015</SessionId>
+            <CaseId>Free Flick: Pitch Perfect 2 NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Betty_Knowles_10-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Eileen_Couper_24-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Juanita_Hinds_01-11-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Morcom_13-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Ambrose_23-04-1936</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Turner_29-12-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Button_24-06-1948</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia (Trish)_Bakker_14-06-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Peter_Morcom_19-10-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia_Cuffe_17-08-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Molly_Jetson_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Janette (Mary-Jane)_Smith_15-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>390</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Op Shop Crawl_NORTH_19-11-2015</SessionId>
+            <CaseId>Op Shop Crawl NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Peter_Morcom_19-10-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Barbara_Sattler_01-09-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Morcom_13-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Harold (Joe)_Hawley_24-02-1917</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>480</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Chats Lunch_NORTH_26-11-2015</SessionId>
+            <CaseId>Chats Lunch NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Chris_MacMillan_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Knowles_10-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Christine_Pitt_10-01-1950</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Juanita_Hinds_01-11-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maria_Jansen_24-09-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lois_James_02-05-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Ambrose_23-04-1936</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Carmen_Dorion_19-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Turner_29-12-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Younghusband_25-01-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia (Trish)_Bakker_14-06-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Eleanor_Mazengarb_06-01-1940</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Margarite_Deacon_25-05-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robbie_MacMillan_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Gordon_Conway_26-11-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Vonnie (Uvonnie)_Perkins_23-08-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Guyton_13-04-1940</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Molly_Jetson_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Knehans_22-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Harold (Joe)_Hawley_24-02-1917</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Walkie Talkie_NORTH_18-12-2015</SessionId>
+            <CaseId>Walkie Talkie NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robin_Wright_24-05-1923</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>330</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Country Music Wall Day_NORTH_01-11-2015</SessionId>
+            <CaseId>Country Music Wall Day NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Patricia (Trish)_Bakker_14-06-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Eileen_Couper_24-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Christine_Pitt_10-01-1950</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maria_Jansen_24-09-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ann_Macaulay_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Marilyn_Stafford_31-05-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maureen_Apps_29-03-1944</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lola_Chugg_22-01-1944</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Janette (Mary-Jane)_Smith_15-09-1935</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Chats Xmas Lunch_NORTH_16-12-2015</SessionId>
+            <CaseId>Chats Xmas Lunch NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Betty_Knowles_10-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Juanita_Hinds_01-11-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Barbara_Sattler_01-09-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Morcom_13-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Carol_Webb_09-06-1948</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Turner_29-12-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Beverley_Robinson_02-03-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Button_24-06-1948</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Gayna_Whitcombe_16-03-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Peter_Morcom_19-10-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_Robertson_21-03-1927</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Margarite_Deacon_25-05-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_James_17-03-1931</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Molly_Jetson_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Anna_Peters_06-07-1936</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Harold (Joe)_Hawley_24-02-1917</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robin_Wright_24-05-1923</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>June_Carter_15-01-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ruby_Wood_02-12-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Thorp_06-02-1927</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Johanne_Salter_20-01-1937</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Luise (Aloisia)_Kocaba_11-12-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lena_Jay_04-07-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Leonard_Gilson_15-07-1925</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Rose_Collins_25-05-1949</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Mim (Tomima)_Fuge_06-10-1931</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Jam Session_NORTH_20-12-2015</SessionId>
+            <CaseId>Jam Session NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Christine_Pitt_10-01-1950</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ann_Macaulay_22-01-2016</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maureen_Apps_29-03-1944</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Carmen_Dorion_19-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Younghusband_25-01-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia (Trish)_Bakker_14-06-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Marilyn_Stafford_31-05-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lola_Chugg_22-01-1944</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Janette (Mary-Jane)_Smith_15-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Harold (Joe)_Hawley_24-02-1917</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>270</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Round Table Lunch - Riverside Hotel_NORTH_12-11-2015</SessionId>
+            <CaseId>Round Table Lunch - Riverside Hotel NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_Robertson_21-03-1927</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maria_Jansen_24-09-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Marilyn_Stafford_31-05-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Mim (Tomima)_Fuge_06-10-1931</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Amilcare_Berarducci_07-03-1936</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Crafty Chatsters_NORTH_02-12-2015</SessionId>
+            <CaseId>Crafty Chatsters NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robin_Wright_24-05-1923</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Barbara_Sattler_01-09-1932</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>330</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Foodies Tour p.m._NORTH_22-12-2015</SessionId>
+            <CaseId>Foodies Tour p.m. NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Betty_Knowles_10-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Barbara_Sattler_01-09-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Ambrose_23-04-1936</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Beverley_Robinson_02-03-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>420</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Fishing Time_NORTH_10-11-2015</SessionId>
+            <CaseId>Fishing Time NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Clayton_08-03-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Grazia_Acquarola_25-11-1931</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Amilcare_Berarducci_07-03-1936</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>450</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Woolmers Rose Festival_NORTH_15-11-2015</SessionId>
+            <CaseId>Woolmers Rose Festival NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Betty_Knowles_10-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Clayton_08-03-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Eileen_Couper_24-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Christine_Pitt_10-01-1950</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robyn_Bresciani_25-01-1945</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>June_Carter_15-01-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maria_Jansen_24-09-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Younghusband_25-01-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Beverley_Slater_07-04-1932</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Marilyn_Stafford_31-05-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Janette (Mary-Jane)_Smith_15-09-1935</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>540</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Foodies Tour a.m._NORTH_22-12-2015</SessionId>
+            <CaseId>Foodies Tour a.m. NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Ron_Denman_06-09-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lena_Jay_04-07-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Clayton_08-03-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_Robertson_21-03-1927</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>390</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Free Flick - Royal Night Out_NORTH_07-12-2015</SessionId>
+            <CaseId>Free Flick - Royal Night Out NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Eileen_Couper_24-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Juanita_Hinds_01-11-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Morcom_13-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lois_James_02-05-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Maureen_Apps_29-03-1944</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Ambrose_23-04-1936</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Turner_29-12-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Younghusband_25-01-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Josie_Garrity_19-03-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Button_24-06-1948</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia (Trish)_Bakker_14-06-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Peter_Morcom_19-10-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_Robertson_21-03-1927</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Leonard_Gilson_15-07-1925</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Patricia_Cuffe_17-08-1943</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat_James_17-03-1931</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Janette (Mary-Jane)_Smith_15-09-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Knehans_22-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Chris_Deaner_17-11-1941</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>330</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Fishing at Latrobe_NORTH_09-12-2015</SessionId>
+            <CaseId>Fishing at Latrobe NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Fatima_Mestre_13-12-1938</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lena_Jay_04-07-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Betty_Clayton_08-03-1941</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Amilcare_Berarducci_07-03-1936</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>600</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Walkie Talkie - Tamar Wetlands_NORTH_17-11-2015</SessionId>
+            <CaseId>Walkie Talkie - Tamar Wetlands NORTH</CaseId>
+            <sessionClients>
+                <SessionClient>
+                    <ClientId>Peter_Morcom_19-10-1935</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Robin_Wright_24-05-1923</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Judith_Morcom_13-08-1942</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Lois_James_02-05-1930</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Younghusband_25-01-1933</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Pat (Patricia)_Knehans_22-10-1929</ClientId>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>Shirley_Button_24-06-1948</ClientId>
+                </SessionClient>
+            </sessionClients>
+            <TimeMinutes>300</TimeMinutes>
+        </Session>
+    </Sessions>
+</dexFileUpload>

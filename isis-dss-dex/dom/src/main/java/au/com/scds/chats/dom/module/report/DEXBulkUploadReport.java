@@ -196,12 +196,14 @@ public class DEXBulkUploadReport {
 			c.setHasDisabilities(false);
 			ResidentialAddress a = new ResidentialAddress();
 			Address s = p.getStreetAddress();
-			a.setAddressLine1(s.getStreet1());
-			a.setAddressLine2(s.getStreet2());
-			a.setSuburb(s.getSuburb());
-			a.setPostcode(s.getPostcode());
-			a.setStateCode("TAS");
-			c.setResidentialAddress(a);
+			if (s != null) {
+				a.setAddressLine1(s.getStreet1());
+				a.setAddressLine2(s.getStreet2());
+				a.setSuburb(s.getSuburb());
+				a.setPostcode(s.getPostcode());
+				a.setStateCode("TAS");
+				c.setResidentialAddress(a);
+			}
 			clients.getClient().add(c);
 		}
 	}
@@ -282,9 +284,9 @@ public class DEXBulkUploadReport {
 					+ p.getBirthdate().toString("dd-MM-YYYY");
 			if (p.getBirthdate().isBefore(this.bornBeforeDate)) {
 				if (currentDay == 0 || call.getStartDateTime().dayOfMonth().get() > currentDay) {
-					if(currentDay > 0 )
+					if (currentDay > 0)
 						session.setTimeMinutes(totalMinutes);
-					//start new session
+					// start new session
 					session = new Session();
 					this.sessions.getSession().add(session);
 					session.setSessionId(
@@ -292,7 +294,7 @@ public class DEXBulkUploadReport {
 					session.setCaseId("Chats Calls " + region.getName());
 					clients = new SessionClients();
 					session.setSessionClients(clients);
-					//reset 
+					// reset
 					currentDay = call.getStartDateTime().dayOfMonth().get();
 					totalMinutes = 0;
 				}
@@ -302,8 +304,8 @@ public class DEXBulkUploadReport {
 				totalMinutes = totalMinutes + call.getCallIntervalInMinutes();
 			}
 		}
-		//set the time on the last session created
-		if(session != null)
+		// set the time on the last session created
+		if (session != null)
 			session.setTimeMinutes(totalMinutes);
 	}
 

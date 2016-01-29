@@ -16,6 +16,7 @@ import au.com.scds.chats.dom.module.general.names.Salutations;
 import au.com.scds.chats.dom.module.general.names.TransportTypes;
 import au.com.scds.chats.dom.module.participant.Participants;
 import au.com.scds.chats.dom.module.report.DEXBulkUploadReport;
+import au.com.scds.chats.dom.module.report.DEXBulkUploadReport2;
 import au.com.scds.chats.dom.module.volunteer.Volunteers;
 
 import com.google.common.collect.Lists;
@@ -34,6 +35,7 @@ import org.junit.rules.ExpectedException;
 import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.fixturescripts.FixtureScripts;
 import org.apache.isis.applib.services.jaxb.JaxbService;
+import org.apache.isis.applib.services.jdosupport.IsisJdoSupport;
 import org.apache.isis.applib.value.Clob;
 import org.apache.isis.core.integtestsupport.IntegrationTestAbstract;
 import org.apache.isis.core.integtestsupport.IsisSystemForTest;
@@ -53,6 +55,9 @@ public class IsisChatsSystem extends IntegrationTestAbstract {
 
 	@Inject
 	JaxbService jaxbService;
+	
+	@Inject
+	IsisJdoSupport	isisJdoSupport;
 	
 	@Inject
 	Regions regions;
@@ -85,13 +90,38 @@ public class IsisChatsSystem extends IntegrationTestAbstract {
 		// instantiating will install onto ThreadLocal
 		new ScenarioExecutionForIntegration();
 	}
-
+	
 	@Test
 	public void DEXReport() throws Exception {
-		FileOutputStream file = new FileOutputStream(new File("dexbulktest.xml"));
-		DEXBulkUploadReport report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
-		//System.out.print(jaxbService.toXml(report.build()));
-		file.write(jaxbService.toXml(report.build()).getBytes());
+		FileOutputStream file1 = new FileOutputStream(new File("__dexbulkSOUTHNovember.xml"));
+		DEXBulkUploadReport2 report = new DEXBulkUploadReport2(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
+		file1.write(jaxbService.toXml(report.build()).getBytes());
 	}
+
+	/*@Test
+	public void DEXReport() throws Exception {
+		FileOutputStream file1 = new FileOutputStream(new File("dexbulkNORTHNovember.xml"));
+		DEXBulkUploadReport report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("NORTH"));
+		file1.write(jaxbService.toXml(report.build()).getBytes());
+
+		FileOutputStream file2 = new FileOutputStream(new File("dexbulkNORTHDecember.xml"));
+		report = new DEXBulkUploadReport(persons, container, refData, 2015, 12, regions.regionForName("NORTH"));
+		file2.write(jaxbService.toXml(report.build()).getBytes());
+
+		FileOutputStream file3 = new FileOutputStream(new File("dexbulkNORTH-WESTNovember.xml"));
+		report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("NORTH-WEST"));
+		file3.write(jaxbService.toXml(report.build()).getBytes());
+		FileOutputStream file4 = new FileOutputStream(new File("dexbulkNORTH-WESTDecember.xml"));
+		report = new DEXBulkUploadReport(persons, container, refData, 2015, 12, regions.regionForName("NORTH-WEST"));
+		file4.write(jaxbService.toXml(report.build()).getBytes());
+
+		FileOutputStream file5= new FileOutputStream(new File("dexbulkSOUTHNovember.xml"));
+		report = new DEXBulkUploadReport(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
+		file5.write(jaxbService.toXml(report.build()).getBytes());
+		FileOutputStream file6 = new FileOutputStream(new File("dexbulkSOUTHDecember.xml"));
+		report = new DEXBulkUploadReport(persons, container, refData, 2015, 12, regions.regionForName("SOUTH"));
+		file6.write(jaxbService.toXml(report.build()).getBytes());
+	
+	}*/
 
 }

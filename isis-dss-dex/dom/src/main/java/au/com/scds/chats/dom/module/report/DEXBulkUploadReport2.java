@@ -122,7 +122,7 @@ public class DEXBulkUploadReport2 {
 			c.setIsUsingPsuedonym(false);
 			c.setBirthDate(p.getBirthdate());
 			c.setIsBirthDateAnEstimate(false);
-			c.setGenderCode(p.getSex() == Sex.Male ? "MALE" : "FEMALE");
+			c.setGenderCode(p.getSex() == Sex.MALE ? "MALE" : "FEMALE");
 			c.setCountryOfBirthCode("Australia");
 			c.setLanguageSpokenAtHomeCode("English");
 			c.setAboriginalOrTorresStraitIslanderOriginCode("NO");
@@ -242,7 +242,7 @@ public class DEXBulkUploadReport2 {
 		else
 			buffer.append("2");
 		buffer.append(p.getBirthdate().toString("ddMMYYYY"));
-		buffer.append(p.getSex() == Sex.Male ? "1" : "2");
+		buffer.append(p.getSex() == Sex.MALE ? "1" : "2");
 		return buffer.toString();
 	}
 

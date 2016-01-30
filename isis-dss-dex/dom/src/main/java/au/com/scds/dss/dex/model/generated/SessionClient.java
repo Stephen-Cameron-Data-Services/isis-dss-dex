@@ -49,12 +49,15 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "SessionClient", propOrder = {
-    "clientId"
+    "clientId",
+    "participationCode"
 })
 public class SessionClient {
 
     @XmlElement(name = "ClientId", required = true)
     protected String clientId;
+    @XmlElement(name = "ParticipationCode", required = true)
+    protected String participationCode;
 
     /**
      * Gets the value of the clientId property.
@@ -81,6 +84,29 @@ public class SessionClient {
     }
 
 
+    /**
+     * Gets the value of the participationCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getParticipationCode() {
+        return participationCode;
+    }
+
+    /**
+     * Sets the value of the participationCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setParticipationCode(String value) {
+        this.participationCode = value;
+    }
 
     /**
      * <p>Java class for anonymous complex type.

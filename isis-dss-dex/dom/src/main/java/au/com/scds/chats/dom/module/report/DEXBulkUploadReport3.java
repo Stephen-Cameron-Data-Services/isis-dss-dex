@@ -61,6 +61,12 @@ public class DEXBulkUploadReport3 {
 	// private Persons persons;
 	private IsisJdoSupport isisJdoSupport;
 	private ReferenceData refData;
+	private ClientIdGenerationMode mode;
+
+	public enum ClientIdGenerationMode {
+		NATURAL_KEY, HASH_KEY
+	}
+
 	// make an Activity-Region-Date map
 	// each entry is an person-session map, with one entry, we use the key as
 	// sessionId
@@ -78,6 +84,7 @@ public class DEXBulkUploadReport3 {
 		this.clients = new Clients();
 		this.cases = new Cases();
 		this.sessions = new Sessions();
+		this.mode = ClientIdGenerationMode.HASH_KEY;
 
 		this.valids = new TreeMap<String, Map<String, au.com.scds.chats.dom.temp.Session>>();
 		this.persons = new TreeMap<String, Person>();
@@ -115,23 +122,27 @@ public class DEXBulkUploadReport3 {
 			Client c = new Client();
 			c.setClientId(key);
 			c.setSlk(makeSLK(p));
-			c.setConsentToProvideDetails(true);
-			c.setConsentedForFutureContacts(true);
+			c.setConsentToProvideDetails(false);
+			c.setConsentedForFutureContacts(false);
 			c.setGivenName(p.getFirstname());
 			c.setFamilyName(p.getSurname());
 			c.setIsUsingPsuedonym(false);
 			c.setBirthDate(p.getBirthdate());
 			c.setIsBirthDateAnEstimate(false);
-			c.setGenderCode(p.getSex() == Sex.Male ? "MALE" : "FEMALE");
-			c.setCountryOfBirthCode("Australia");
-			c.setLanguageSpokenAtHomeCode("English");
-			c.setAboriginalOrTorresStraitIslanderOriginCode("NO");
+			c.setGenderCode(p.getSex() == Sex.MALE ? "MALE" : "FEMALE");
+			c.setCountryOfBirthCode("0003");
+			c.setLanguageSpokenAtHomeCode("0002");
+			c.setAboriginalOrTorresStraitIslanderOriginCode("NOTSTATED");
 			c.setHasDisabilities(false);
 			Address s = p.getStreetAddress();
 			if (s != null) {
 				ResidentialAddress a = new ResidentialAddress();
 				a.setAddressLine1(s.getStreet1());
-				a.setAddressLine2(s.getStreet2());
+				if (s.getStreet2() == null || s.getStreet2().trim().length() == 0) {
+					a.setAddressLine2(null);
+				} else {
+					a.setAddressLine2(s.getStreet2());
+				}
 				a.setSuburb(s.getSuburb());
 				a.setPostcode(s.getPostcode());
 				a.setStateCode("TAS");
@@ -145,8 +156,11 @@ public class DEXBulkUploadReport3 {
 		List<au.com.scds.chats.dom.temp.Session> sessions = container
 				.allMatches(new QueryDefault(au.com.scds.chats.dom.temp.Session.class, "find"));
 		Person p;
+		Integer totalDuration = 0;
+		Integer totalCount = 0;
 		for (au.com.scds.chats.dom.temp.Session s : sessions) {
-			if (s.getRegion().trim().equals(this.region.getName())) {
+			if (s.getRegion().trim().equals(this.region.getName())
+					&& s.getInteractionDate().getMonthOfYear() == this.month) {
 				try {
 					p = s.getPerson();
 				} catch (NucleusObjectNotFoundException e) {
@@ -160,39 +174,90 @@ public class DEXBulkUploadReport3 {
 					valids.put(sessionKey, new TreeMap<String, au.com.scds.chats.dom.temp.Session>());
 				String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
 						+ p.getBirthdate().toString("dd-MM-YYYY");
-				valids.get(sessionKey).put(personKey, s);
+				if (mode == ClientIdGenerationMode.HASH_KEY) {
+					personKey = makeSLK(p);
+				}
+				// calls to same person on same day
+				if (!valids.get(sessionKey).containsKey(personKey))
+					valids.get(sessionKey).put(personKey, s);
+				else
+					System.out.println("DUPLICATE SESSION-PERSON: " + sessionKey + " & " + personKey);
 				// persons
 				if (!persons.containsKey(personKey)) {
 					persons.put(personKey, p);
 				}
 				// cases
-				String caseKey = s.getActivity().trim() + "_" + s.getRegion().trim();
+				String caseKey = (s.getActivity().trim().equals("chats phone call") ? "Chats Social Calls"
+						: s.getActivity().trim()) + "_" + s.getRegion().trim();
 				if (!caseClients.containsKey(caseKey)) {
 					caseClients.put(caseKey, new TreeMap<String, Person>());
 				}
 				caseClients.get(caseKey).put(personKey, p);
+				totalDuration = totalDuration + s.getDuration();
+				totalCount++;
 			}
 		}
+		System.out.println("TOTAL DURATION 1: " + totalDuration);
+		System.out.println("TOTAL COUNT 1: " + totalCount);
 		// create the DEX Sessions
+		totalDuration = 0;
+		totalCount = 0;
 		for (Entry<String, Map<String, au.com.scds.chats.dom.temp.Session>> entry : valids.entrySet()) {
-			Session session = new Session();
-			this.sessions.getSession().add(session);
-			SessionClients clients = new SessionClients();
-			session.setSessionClients(clients);
-			int counter = 0;
-			for (Entry<String, au.com.scds.chats.dom.temp.Session> n : entry.getValue().entrySet()) {
-				if (counter++ == 0) {
-					String caseId = n.getValue().getActivity() + "_" + region.getName();
-					String sessionId = caseId + "_" + n.getValue().getInteractionDate().toString("dd-MM-YYYY");
+			if (entry.getKey().length() > 25 && entry.getKey().substring(9, 25).equals("chats phone call")) {
+				for (Entry<String, au.com.scds.chats.dom.temp.Session> n : entry.getValue().entrySet()) {
+					Session session = new Session();
+					this.sessions.getSession().add(session);
+					SessionClients clients = new SessionClients();
+					session.setSessionClients(clients);
+					String caseId = "Chats Social Calls" + "_" + region.getName();
+					String sessionId = "Social-Call-To_" + n.getKey() + "_on_"
+							+ n.getValue().getInteractionDate().toString("dd-MM-YYYY");
 					session.setCaseId(caseId);
 					session.setSessionId(sessionId);
 					session.setTimeMinutes(n.getValue().getDuration());
+					session.setSessionDate(n.getValue().getInteractionDate());
+					SessionClient client = new SessionClient();
+					clients.getSessionClient().add(client);
+					client.setClientId(n.getKey());
+					client.setParticipationCode("CLIENT");
+					// System.out.println(sessionId);
+					totalDuration = totalDuration + n.getValue().getDuration();
+					totalCount++;
 				}
-				SessionClient client = new SessionClient();
-				clients.getSessionClient().add(client);
-				client.setClientId(n.getKey());
+			} else {
+				Session session = new Session();
+				this.sessions.getSession().add(session);
+				SessionClients clients = new SessionClients();
+				session.setSessionClients(clients);
+				int counter = 0;
+				int total = 0;
+				String sessionId = null;
+				LocalDate sessionDate = null;
+				for (Entry<String, au.com.scds.chats.dom.temp.Session> n : entry.getValue().entrySet()) {
+					if (counter == 0) {
+						String caseId = n.getValue().getActivity() + "_" + region.getName();
+						sessionId = caseId + "_" + n.getValue().getInteractionDate().toString("dd-MM-YYYY");
+						session.setCaseId(caseId);
+						session.setSessionId(sessionId);
+						session.setSessionDate(n.getValue().getInteractionDate());
+					}
+					SessionClient client = new SessionClient();
+					clients.getSessionClient().add(client);
+					client.setClientId(n.getKey());
+					client.setParticipationCode("CLIENT");
+					// System.out.println(sessionId+","+n.getKey());
+					total = total + n.getValue().getDuration();
+					counter++;
+					totalCount++;
+
+				}
+				totalDuration = totalDuration + total;
+				Integer avg = new Integer(total / counter);
+				session.setTimeMinutes(avg);
 			}
 		}
+		System.out.println("TOTAL DURATION 2: " + totalDuration);
+		System.out.println("TOTAL COUNT 2: " + totalCount);
 	}
 
 	private void getCases() throws Exception {
@@ -205,7 +270,7 @@ public class DEXBulkUploadReport3 {
 				c.setOutletActivityId(601);
 			} else if (region.getName().equals("NORTH")) {
 				c.setOutletActivityId(602);
-			} else if (region.getName().equals("SOUTH")){
+			} else if (region.getName().equals("SOUTH")) {
 				c.setOutletActivityId(603);
 			} else {
 				throw new Exception("Region not valid");
@@ -242,7 +307,7 @@ public class DEXBulkUploadReport3 {
 		else
 			buffer.append("2");
 		buffer.append(p.getBirthdate().toString("ddMMYYYY"));
-		buffer.append(p.getSex() == Sex.Male ? "1" : "2");
+		buffer.append(p.getSex() == Sex.MALE ? "1" : "2");
 		return buffer.toString();
 	}
 

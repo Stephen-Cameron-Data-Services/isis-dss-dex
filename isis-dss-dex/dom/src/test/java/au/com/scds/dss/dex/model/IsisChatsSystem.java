@@ -17,6 +17,7 @@ import au.com.scds.chats.dom.module.general.names.TransportTypes;
 import au.com.scds.chats.dom.module.participant.Participants;
 import au.com.scds.chats.dom.module.report.DEXBulkUploadReport;
 import au.com.scds.chats.dom.module.report.DEXBulkUploadReport2;
+import au.com.scds.chats.dom.module.report.DEXBulkUploadReport3;
 import au.com.scds.chats.dom.module.volunteer.Volunteers;
 
 import com.google.common.collect.Lists;
@@ -93,9 +94,29 @@ public class IsisChatsSystem extends IntegrationTestAbstract {
 	
 	@Test
 	public void DEXReport() throws Exception {
-		FileOutputStream file1 = new FileOutputStream(new File("__dexbulkSOUTHNovember.xml"));
-		DEXBulkUploadReport2 report = new DEXBulkUploadReport2(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
-		file1.write(jaxbService.toXml(report.build()).getBytes());
+		FileOutputStream file1 = new FileOutputStream(new File("DEXBulkUploadSOUTHNovember.xml"));
+		DEXBulkUploadReport3 report1 = new DEXBulkUploadReport3(persons, container, refData, 2015, 11, regions.regionForName("SOUTH"));
+		file1.write(jaxbService.toXml(report1.build()).getBytes());
+		
+		FileOutputStream file2 = new FileOutputStream(new File("DEXBulkUploadNORTHNovember.xml"));
+		DEXBulkUploadReport3 report2 = new DEXBulkUploadReport3(persons, container, refData, 2015, 11, regions.regionForName("NORTH"));
+		file2.write(jaxbService.toXml(report2.build()).getBytes());
+		
+		FileOutputStream file3 = new FileOutputStream(new File("DEXBulkUploadNORTH-WESTNovember.xml"));
+		DEXBulkUploadReport3 report3 = new DEXBulkUploadReport3(persons, container, refData, 2015, 11, regions.regionForName("NORTH-WEST"));
+		file3.write(jaxbService.toXml(report3.build()).getBytes());
+		
+		FileOutputStream file4 = new FileOutputStream(new File("DEXBulkUploadSOUTHDecember.xml"));
+		DEXBulkUploadReport3 report4 = new DEXBulkUploadReport3(persons, container, refData, 2015, 12, regions.regionForName("SOUTH"));
+		file4.write(jaxbService.toXml(report4.build()).getBytes());
+		
+		FileOutputStream file5 = new FileOutputStream(new File("DEXBulkUploadNORTHDecember.xml"));
+		DEXBulkUploadReport3 report5 = new DEXBulkUploadReport3(persons, container, refData, 5015, 12, regions.regionForName("NORTH"));
+		file5.write(jaxbService.toXml(report5.build()).getBytes());
+		
+		FileOutputStream file6 = new FileOutputStream(new File("DEXBulkUploadNORTH-WESTDecember.xml"));
+		DEXBulkUploadReport3 report6 = new DEXBulkUploadReport3(persons, container, refData, 2015, 12, regions.regionForName("NORTH-WEST"));
+		file6.write(jaxbService.toXml(report6.build()).getBytes());
 	}
 
 	/*@Test

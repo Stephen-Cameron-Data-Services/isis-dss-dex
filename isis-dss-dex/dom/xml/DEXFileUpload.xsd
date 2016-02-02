@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:cd="urn:cd-schema" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:cd="urn:cd-schema" 
+attributeFormDefault="unqualified" 
+elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="DEXFileUpload" type="DEXFileUpload" />
   <xs:complexType name="DEXFileUpload">
     <xs:choice minOccurs="1" maxOccurs="5">
@@ -258,10 +260,9 @@
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="PostCodeString">
-    <xs:restriction base="xs:string">
-      <xs:minLength value="4" />
-      <xs:maxLength value="4" />
-      <xs:pattern value="^[\d]{4}$" />
+    <xs:restriction base="xs:integer">
+      <xs:maxInclusive value="9999" />
+      <xs:minInclusive value="1000" />
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="MaxUnidentifiedClients">

@@ -5,7 +5,6 @@
 // Generated on: 2016.01.01 at 01:11:47 PM EST 
 //
 
-
 package au.com.scds.dss.dex.model.generated;
 
 import java.util.ArrayList;
@@ -17,11 +16,13 @@ import javax.xml.bind.annotation.XmlElements;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for DEXFileUpload complex type.
+ * <p>
+ * Java class for DEXFileUpload complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType name="DEXFileUpload">
@@ -42,55 +43,47 @@ import javax.xml.bind.annotation.XmlType;
  * 
  * 
  */
-@XmlRootElement()
+@XmlRootElement(name = "DEXFileUpload")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "DEXFileUpload", propOrder = {
-    "clientsOrCasesOrSessions"
-})
+@XmlType(name = "DEXFileUpload", propOrder = { "clientsOrCasesOrSessions" })
 public class DEXFileUpload {
 
-    @XmlElements({
-        @XmlElement(name = "Clients", type = Clients.class),
-        @XmlElement(name = "Cases", type = Cases.class),
-        @XmlElement(name = "Sessions", type = Sessions.class),
-        @XmlElement(name = "SessionAssessments", type = SessionAssessments.class),
-        @XmlElement(name = "ClientAssessments", type = ClientAssessments.class),
-        @XmlElement(name = "Outlets", type = Outlets.class)
-    })
-    protected List<Object> clientsOrCasesOrSessions;
+	@XmlElements({ @XmlElement(name = "Clients", type = Clients.class), @XmlElement(name = "Cases", type = Cases.class),
+			@XmlElement(name = "Sessions", type = Sessions.class),
+			@XmlElement(name = "SessionAssessments", type = SessionAssessments.class),
+			@XmlElement(name = "ClientAssessments", type = ClientAssessments.class),
+			@XmlElement(name = "Outlets", type = Outlets.class) })
+	protected List<Object> clientsOrCasesOrSessions;
 
-    /**
-     * Gets the value of the clientsOrCasesOrSessions property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the clientsOrCasesOrSessions property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getClientsOrCasesOrSessions().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Clients }
-     * {@link Cases }
-     * {@link Sessions }
-     * {@link SessionAssessments }
-     * {@link ClientAssessments }
-     * {@link Outlets }
-     * 
-     * 
-     */
-    public List<Object> getClientsOrCasesOrSessions() {
-        if (clientsOrCasesOrSessions == null) {
-            clientsOrCasesOrSessions = new ArrayList<Object>();
-        }
-        return this.clientsOrCasesOrSessions;
-    }
+	/**
+	 * Gets the value of the clientsOrCasesOrSessions property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a
+	 * snapshot. Therefore any modification you make to the returned list will
+	 * be present inside the JAXB object. This is why there is not a
+	 * <CODE>set</CODE> method for the clientsOrCasesOrSessions property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getClientsOrCasesOrSessions().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link Clients }
+	 * {@link Cases } {@link Sessions } {@link SessionAssessments }
+	 * {@link ClientAssessments } {@link Outlets }
+	 * 
+	 * 
+	 */
+	public List<Object> getClientsOrCasesOrSessions() {
+		if (clientsOrCasesOrSessions == null) {
+			clientsOrCasesOrSessions = new ArrayList<Object>();
+		}
+		return this.clientsOrCasesOrSessions;
+	}
 
 }

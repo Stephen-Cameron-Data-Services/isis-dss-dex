@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="dex.xsl"?>
-<dexFileUpload>
+<DEXFileUpload>
     <Clients>
         <Client>
             <ClientId>AD2OY250219302</ClientId>
@@ -18,8 +17,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5/164 William Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -41,8 +38,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>20 Roland Court</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Sheffield</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7306</Postcode>
@@ -64,8 +59,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>20 Ronald Court </AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Sheffield </Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7306</Postcode>
@@ -87,8 +80,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>13 Bayview Holiday Village</AddressLine1>
-                <AddressLine2>2 North Caroline Street</AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -110,8 +101,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>30 Leighland Ave</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -133,8 +122,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>88 William street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -156,8 +143,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 5, 74 Tasman Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -179,8 +164,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>3 Adam St</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -202,8 +185,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 3, 92 North Fenton Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -225,8 +206,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>16 Alexandra Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -248,8 +227,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>8 Lindsay Place</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonort</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -271,8 +248,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>10-164 William Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -294,8 +269,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>84 Alexandra Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -317,8 +290,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>21 Greenway Avenue</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -340,8 +311,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>40 Shaw Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -363,8 +332,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 2</AddressLine1>
-                <AddressLine2>164 William Street</AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -386,8 +353,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5/14 Hawkin Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Latrobe</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -409,8 +374,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>59 Gunn Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -432,8 +395,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 25 Sea Haven Crescent</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Shearwater</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -455,8 +416,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>46 Arden Avenue</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -478,8 +437,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>110 Brooke Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -501,8 +458,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>20 Boronia Avenue</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -524,8 +479,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 3</AddressLine1>
-                <AddressLine2>140 Steele Street</AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -547,8 +500,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>58 Mersey Main Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Spreyton</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -570,8 +521,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1/35 Main Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -593,8 +542,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 11</AddressLine1>
-                <AddressLine2>164 William Street</AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -616,8 +563,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>30 Woodrising Avenue</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Spreyton</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -639,8 +584,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>18 South Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -662,8 +605,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>70 John Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -685,8 +626,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>22/32-36 Lovett Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -708,8 +647,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>3/78B Oldaker Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -731,8 +668,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5 Thomas Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -754,8 +689,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>3 View Place</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -777,8 +710,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5/7 Weld Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Latrobe</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -800,8 +731,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>61 Hillcrest Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -823,8 +752,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>25 Roberts Court</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -846,8 +773,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>2/8 Fleetwood Drive </AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Spreyton</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -869,8 +794,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 10 53 Meredith Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Port Sorell</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -892,8 +815,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1/92 Percy Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -915,8 +836,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1/123 Parker Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -938,8 +857,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>13 Ready Place</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Latrobe</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -961,8 +878,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>418 Mersey Main Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Spreyton</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -984,8 +899,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>418 Mersey Main Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Spreyton</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1007,8 +920,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>11 Boronia Avenure</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1030,8 +941,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>160A David Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1053,8 +962,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 8</AddressLine1>
-                <AddressLine2>13 Hobb's Parade</AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -1076,8 +983,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>2/120 A   Steele Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1099,8 +1004,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>33 Sorell Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1122,8 +1025,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 10</AddressLine1>
-                <AddressLine2>13 Hobbs Parade</AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -1145,8 +1046,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>48 Young Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1168,8 +1067,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>8 Seabreeze Avenue</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Shearwater</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -1191,8 +1088,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>22 Tugrah Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Stony Rise</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1214,8 +1109,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>2/97A Gunn Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1237,8 +1130,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 2</AddressLine1>
-                <AddressLine2>124A North Fenton Street</AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1260,8 +1151,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1/21 West Eugene Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1283,8 +1172,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>PO Box 718</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport </Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1306,8 +1193,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5/53B Gunn Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1329,8 +1214,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1-120A Steele Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1352,8 +1235,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5/12 Hampden Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Latrobe</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
@@ -1375,8 +1256,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>6 Bellevue Court</AddressLine1>
-                <AddressLine2>Ambleside</AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1398,8 +1277,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>34 Eastland Drive</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -1421,8 +1298,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>1 Oak Court</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1444,8 +1319,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>53 Wilmot Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Forth</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1467,8 +1340,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>12/31 Wright Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1490,8 +1361,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Connina Unit 8 / 35-37 Main Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
@@ -1513,8 +1382,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>5 Hillcrest Road</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1536,8 +1403,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>Unit 1</AddressLine1>
-                <AddressLine2>96A North Fenton street</AddressLine2>
                 <Suburb>Devonoport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1559,8 +1424,6 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <AddressLine1>2/78B Oldaker Street</AddressLine1>
-                <AddressLine2></AddressLine2>
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
@@ -1570,7 +1433,7 @@
     <Cases>
         <Case>
             <CaseId>Chats Christmas Lunch_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1703,7 +1566,7 @@
         </Case>
         <Case>
             <CaseId>Chats Christmas day Lunch_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1719,7 +1582,7 @@
         </Case>
         <Case>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1855,7 +1718,7 @@
         </Case>
         <Case>
             <CaseId>Cinema group_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1877,7 +1740,7 @@
         </Case>
         <Case>
             <CaseId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1917,7 +1780,7 @@
         </Case>
         <Case>
             <CaseId>Dinner at Leonardoz_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1951,7 +1814,7 @@
         </Case>
         <Case>
             <CaseId>Foodies Tour_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -1976,7 +1839,7 @@
         </Case>
         <Case>
             <CaseId>Shopping Trip to Launceston_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -2019,7 +1882,7 @@
         </Case>
         <Case>
             <CaseId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST</CaseId>
-            <OutletActivityId>601</OutletActivityId>
+            <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
@@ -2044,39 +1907,53 @@
         <Session>
             <SessionId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST_02-12-2015</SessionId>
             <CaseId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-02</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ILIYN290919382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>MIHLI070419372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OR2AR270819322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RENEV050719421</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RIGAW070319372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>UCSTE310719422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>YSNLS270919202</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>245</TimeMinutes>
@@ -2084,9 +1961,13 @@
         <Session>
             <SessionId>Social-Call-To_AD2OY250219302_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>AD2OY250219302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2094,9 +1975,13 @@
         <Session>
             <SessionId>Social-Call-To_ATLLI301019302_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2104,9 +1989,13 @@
         <Session>
             <SessionId>Social-Call-To_EE2AT080119402_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2114,9 +2003,13 @@
         <Session>
             <SessionId>Social-Call-To_ELOEL261020132_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ELOEL261020132</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2124,9 +2017,13 @@
         <Session>
             <SessionId>Social-Call-To_ESEHE050219492_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ESEHE050219492</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2134,9 +2031,13 @@
         <Session>
             <SessionId>Social-Call-To_ETEEI131119392_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ETEEI131119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2144,9 +2045,13 @@
         <Session>
             <SessionId>Social-Call-To_HEHAM070519352_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2154,9 +2059,13 @@
         <Session>
             <SessionId>Social-Call-To_HIPEN011019312_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>HIPEN011019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2164,9 +2073,13 @@
         <Session>
             <SessionId>Social-Call-To_HULYN280319311_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>HULYN280319311</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>15</TimeMinutes>
@@ -2174,9 +2087,13 @@
         <Session>
             <SessionId>Social-Call-To_ILIEL250119452_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ILIEL250119452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2184,9 +2101,13 @@
         <Session>
             <SessionId>Social-Call-To_ILIYN290919382_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ILIYN290919382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2194,9 +2115,13 @@
         <Session>
             <SessionId>Social-Call-To_ILKET120519312_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ILKET120519312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2204,9 +2129,13 @@
         <Session>
             <SessionId>Social-Call-To_ISEAU070919392_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ISEAU070919392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2214,9 +2143,13 @@
         <Session>
             <SessionId>Social-Call-To_LEEAR011219372_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2224,9 +2157,13 @@
         <Session>
             <SessionId>Social-Call-To_MIHRA300519381_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>MIHRA300519381</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2234,9 +2171,13 @@
         <Session>
             <SessionId>Social-Call-To_OG2AL160319451_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OG2AL160319451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2244,9 +2185,13 @@
         <Session>
             <SessionId>Social-Call-To_OHSOY040119432_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OHSOY040119432</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2254,9 +2199,13 @@
         <Session>
             <SessionId>Social-Call-To_OLEEV210719322_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2264,9 +2213,13 @@
         <Session>
             <SessionId>Social-Call-To_OLMEL271219182_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OLMEL271219182</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2274,9 +2227,13 @@
         <Session>
             <SessionId>Social-Call-To_OO2TE040419481_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2284,9 +2241,13 @@
         <Session>
             <SessionId>Social-Call-To_OTOAN251019332_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OTOAN251019332</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2294,9 +2255,13 @@
         <Session>
             <SessionId>Social-Call-To_OUHAR300919402_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OUHAR300919402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2304,9 +2269,13 @@
         <Session>
             <SessionId>Social-Call-To_PRGAT270619302_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>PRGAT270619302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2314,9 +2283,13 @@
         <Session>
             <SessionId>Social-Call-To_RIGAW070319372_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>RIGAW070319372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2324,9 +2297,13 @@
         <Session>
             <SessionId>Social-Call-To_RONAL060819372_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>RONAL060819372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2334,9 +2311,13 @@
         <Session>
             <SessionId>Social-Call-To_TRTUD230619392_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>TRTUD230619392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2344,9 +2325,13 @@
         <Session>
             <SessionId>Social-Call-To_UREHI020519302_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2354,9 +2339,13 @@
         <Session>
             <SessionId>Social-Call-To_YA2AL110219372_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>YA2AL110219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2364,9 +2353,13 @@
         <Session>
             <SessionId>Social-Call-To_YO2RE200119272_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>YO2RE200119272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2374,9 +2367,13 @@
         <Session>
             <SessionId>Social-Call-To_YSNLS270919202_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>YSNLS270919202</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2384,21 +2381,29 @@
         <Session>
             <SessionId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST_04-12-2015</SessionId>
             <CaseId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-04</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ALHIL241119252</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HIPEN011019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OMRIL130619372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>277</TimeMinutes>
@@ -2406,9 +2411,13 @@
         <Session>
             <SessionId>Social-Call-To_RAGYN201019372_on_04-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-04</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>RAGYN201019372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>15</TimeMinutes>
@@ -2416,9 +2425,13 @@
         <Session>
             <SessionId>Social-Call-To_ALEOR020119312_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ALEOR020119312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>30</TimeMinutes>
@@ -2426,9 +2439,13 @@
         <Session>
             <SessionId>Social-Call-To_ALOUZ140219472_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ALOUZ140219472</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>30</TimeMinutes>
@@ -2436,9 +2453,13 @@
         <Session>
             <SessionId>Social-Call-To_AWEOH230119451_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>AWEOH230119451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2446,9 +2467,13 @@
         <Session>
             <SessionId>Social-Call-To_EA2OY071219272_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>EA2OY071219272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2456,9 +2481,13 @@
         <Session>
             <SessionId>Social-Call-To_EI2OA251119312_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>EI2OA251119312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>20</TimeMinutes>
@@ -2466,9 +2495,13 @@
         <Session>
             <SessionId>Social-Call-To_ES2OR251219322_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2476,9 +2509,13 @@
         <Session>
             <SessionId>Social-Call-To_HIHAR300919302_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>HIHAR300919302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2486,9 +2523,13 @@
         <Session>
             <SessionId>Social-Call-To_LAKEL230820152_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>LAKEL230820152</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2496,9 +2537,13 @@
         <Session>
             <SessionId>Social-Call-To_MALDN260319312_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>MALDN260319312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2506,9 +2551,13 @@
         <Session>
             <SessionId>Social-Call-To_OX2AY230519452_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>OX2AY230519452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2516,9 +2565,13 @@
         <Session>
             <SessionId>Social-Call-To_RONNT040119431_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>RONNT040119431</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2526,9 +2579,13 @@
         <Session>
             <SessionId>Social-Call-To_UCSTE310719422_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>UCSTE310719422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>5</TimeMinutes>
@@ -2536,9 +2593,13 @@
         <Session>
             <SessionId>Social-Call-To_UREHI020519302_on_07-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>10</TimeMinutes>
@@ -2546,21 +2607,29 @@
         <Session>
             <SessionId>Cinema group_NORTH-WEST_08-12-2015</SessionId>
             <CaseId>Cinema group_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-08</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>EA2OY071219272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ELCAR281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HALOY280519272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RONAL060819372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>275</TimeMinutes>
@@ -2568,33 +2637,45 @@
         <Session>
             <SessionId>Dinner at Leonardoz_NORTH-WEST_11-12-2015</SessionId>
             <CaseId>Dinner at Leonardoz_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-11</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>AD2OY250219302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ALOUZ140219472</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ILOER031019321</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OLHOI060819362</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OUGOS071119382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>299</TimeMinutes>
@@ -2602,132 +2683,177 @@
         <Session>
             <SessionId>Chats Christmas Lunch_NORTH-WEST_15-12-2015</SessionId>
             <CaseId>Chats Christmas Lunch_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-15</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>AD2OY250219302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AE2LI190819382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AE2ON150619281</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ANELA111119391</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ANEUN110619452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AREUN281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AWEOH230119451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>COTOS271119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>EA2OY071219272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>EEEAR120419232</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>EEEAW201019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ESEAR030819352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ESEHE050219492</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ETEEI131119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HABTE050219501</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HALOY280519272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HIHAR300919302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ISEAU070919392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LEEWE081219452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LLAAR300419422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>MIHLI070419372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>NO2EN230719462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>NO2OY070619452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OHSOY040119432</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OLMEL271219182</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OMRIL130619372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OR2AR270819322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OTOAN251019332</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OUHAR300919402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OX2AY230519452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OY2IK110419502</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RAGYN201019372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RENEV050719421</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RONNT040119431</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>YO2RE200119272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>185</TimeMinutes>
@@ -2735,42 +2861,57 @@
         <Session>
             <SessionId>Shopping Trip to Launceston_NORTH-WEST_17-12-2015</SessionId>
             <CaseId>Shopping Trip to Launceston_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-17</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ALOUZ140219472</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ANELA111119391</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ANEUN110619452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AREUN281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ELCAR281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ILIYN290919382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ISEAU070919392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LLAAR300419422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RONAL060819372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>586</TimeMinutes>
@@ -2778,24 +2919,33 @@
         <Session>
             <SessionId>Foodies Tour_NORTH-WEST_23-12-2015</SessionId>
             <CaseId>Foodies Tour_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-23</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>AE2LI190819382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>AREUN281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>ELCAR281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>LAKEL230820152</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>457</TimeMinutes>
@@ -2803,18 +2953,24 @@
         <Session>
             <SessionId>Chats Christmas day Lunch_NORTH-WEST_25-12-2015</SessionId>
             <CaseId>Chats Christmas day Lunch_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-25</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
                     <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RONNT040119431</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>230</TimeMinutes>
         </Session>
     </Sessions>
-</dexFileUpload>
+</DEXFileUpload>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xsl html">
+	xmlns="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	exclude-result-prefixes="xsl html">
 	<xsl:output method="html" />
 	<xsl:template match="/">
 		<html>
@@ -12,7 +14,7 @@
 				</style>
 			</head>
 			<body>
-				<xsl:apply-templates select="dexFileUpload/*" />
+				<xsl:apply-templates select="DEXFileUpload/*" />
 			</body>
 		</html>
 	</xsl:template>

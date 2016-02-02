@@ -66,6 +66,8 @@ import org.joda.time.LocalDate;
     "sessionId",
     "caseId",
     "sessionDate",
+    "serviceTypeId",
+    "totalNumberOfUnidentifiedClients",
     "sessionClients",
     "timeMinutes"
 })
@@ -79,6 +81,11 @@ public class Session {
     @XmlJavaTypeAdapter(Adapter1 .class)
     @XmlSchemaType(name = "date")
     protected LocalDate sessionDate;
+    @XmlElement(name = "ServiceTypeId")
+    protected int serviceTypeId;
+    @XmlElement(name = "TotalNumberOfUnidentifiedClients")
+    protected int totalNumberOfUnidentifiedClients;
+    @XmlElement(name = "SessionClients", nillable = true)
     protected SessionClients sessionClients;
     @XmlElement(name = "TimeMinutes", nillable = true)
     protected Integer timeMinutes;
@@ -153,6 +160,38 @@ public class Session {
      */
     public void setSessionDate(LocalDate value) {
         this.sessionDate = value;
+    }
+    
+    /**
+     * Gets the value of the serviceTypeId property.
+     * 
+     */
+    public int getServiceTypeId() {
+        return serviceTypeId;
+    }
+
+    /**
+     * Sets the value of the serviceTypeId property.
+     * 
+     */
+    public void setServiceTypeId(int value) {
+        this.serviceTypeId = value;
+    }
+    
+    /**
+     * Gets the value of the totalNumberOfUnidentifiedClients property.
+     * 
+     */
+    public int getTotalNumberOfUnidentifiedClients() {
+        return totalNumberOfUnidentifiedClients;
+    }
+
+    /**
+     * Sets the value of the totalNumberOfUnidentifiedClients property.
+     * 
+     */
+    public void setTotalNumberOfUnidentifiedClients(int value) {
+        this.totalNumberOfUnidentifiedClients = value;
     }
 
     /**

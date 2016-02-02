@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DEXFileUpload>
+<?xml-stylesheet type="text/xsl" href="dex.xsl"?>
+<DEXFileUpload
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="xml/DEXFileUpload.xsd">
     <Clients>
+        <Client>
+            <ClientId>AD2OY250219302</ClientId>
+            <Slk>AD2OY250219302</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Joyce</GivenName>
+            <FamilyName>Eade</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1930-02-25</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
         <Client>
             <ClientId>AE2LI190819382</ClientId>
             <Slk>AE2LI190819382</Slk>
@@ -44,14 +69,14 @@
             </ResidentialAddress>
         </Client>
         <Client>
-            <ClientId>AKVNK030819382</ClientId>
-            <Slk>AKVNK030819382</Slk>
+            <ClientId>ALEOR020119312</ClientId>
+            <Slk>ALEOR020119312</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Anka</GivenName>
-            <FamilyName>Makovec</FamilyName>
+            <GivenName>Dorothy</GivenName>
+            <FamilyName>Walker</FamilyName>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1938-08-03</BirthDate>
+            <BirthDate>1931-01-02</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
             <GenderCode>FEMALE</GenderCode>
             <CountryOfBirthCode>0003</CountryOfBirthCode>
@@ -59,9 +84,30 @@
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <Suburb>Devonport</Suburb>
+                <Suburb>East Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>ALHIL241119252</ClientId>
+            <Slk>ALHIL241119252</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Aileen</GivenName>
+            <FamilyName>Walsh</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1925-11-24</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Ulverstone</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7315</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -128,48 +174,6 @@
             </ResidentialAddress>
         </Client>
         <Client>
-            <ClientId>ARELA210119472</ClientId>
-            <Slk>ARELA210119472</Slk>
-            <ConsentToProvideDetails>false</ConsentToProvideDetails>
-            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Elaine</GivenName>
-            <FamilyName>Carter</FamilyName>
-            <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1947-01-21</BirthDate>
-            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
-            <GenderCode>FEMALE</GenderCode>
-            <CountryOfBirthCode>0003</CountryOfBirthCode>
-            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
-            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
-            <HasDisabilities>false</HasDisabilities>
-            <ResidentialAddress>
-                <Suburb>Don</Suburb>
-                <StateCode>TAS</StateCode>
-                <Postcode>7310</Postcode>
-            </ResidentialAddress>
-        </Client>
-        <Client>
-            <ClientId>ARELE031119442</ClientId>
-            <Slk>ARELE031119442</Slk>
-            <ConsentToProvideDetails>false</ConsentToProvideDetails>
-            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Llewellyn</GivenName>
-            <FamilyName>Carter</FamilyName>
-            <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1944-11-03</BirthDate>
-            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
-            <GenderCode>FEMALE</GenderCode>
-            <CountryOfBirthCode>0003</CountryOfBirthCode>
-            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
-            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
-            <HasDisabilities>false</HasDisabilities>
-            <ResidentialAddress>
-                <Suburb>Don</Suburb>
-                <StateCode>TAS</StateCode>
-                <Postcode>7310</Postcode>
-            </ResidentialAddress>
-        </Client>
-        <Client>
             <ClientId>AREUN281019462</ClientId>
             <Slk>AREUN281019462</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -212,22 +216,22 @@
             </ResidentialAddress>
         </Client>
         <Client>
-            <ClientId>AW2OL130619422</ClientId>
-            <Slk>AW2OL130619422</Slk>
+            <ClientId>AWEOH230119451</ClientId>
+            <Slk>AWEOH230119451</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Molly</GivenName>
-            <FamilyName>Dawn</FamilyName>
+            <GivenName>John</GivenName>
+            <FamilyName>Lawrence</FamilyName>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1942-06-13</BirthDate>
+            <BirthDate>1945-01-23</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
-            <GenderCode>FEMALE</GenderCode>
+            <GenderCode>MALE</GenderCode>
             <CountryOfBirthCode>0003</CountryOfBirthCode>
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <Suburb>Devonport</Suburb>
+                <Suburb>Devonort</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
             </ResidentialAddress>
@@ -296,6 +300,48 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>EEEAR120419232</ClientId>
+            <Slk>EEEAR120419232</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Margaret</GivenName>
+            <FamilyName>Reece</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1923-04-12</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>EEEAW201019312</ClientId>
+            <Slk>EEEAW201019312</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Dawn</GivenName>
+            <FamilyName>Reeves</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1931-10-20</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>EI2OA251119312</ClientId>
             <Slk>EI2OA251119312</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -338,6 +384,27 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>ELOEL261020132</ClientId>
+            <Slk>ELOEL261020132</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Melba</GivenName>
+            <FamilyName>Mellor</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>2013-10-26</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Shearwater</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7307</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>ES2OR251219322</ClientId>
             <Slk>ES2OR251219322</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -375,6 +442,48 @@
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
                 <Suburb>East Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>ESEHE050219492</ClientId>
+            <Slk>ESEHE050219492</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Cheryl</GivenName>
+            <FamilyName>Bester</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1949-02-05</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>ETEEI131119392</ClientId>
+            <Slk>ETEEI131119392</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Heidi</GivenName>
+            <FamilyName>Wetzel</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1939-11-13</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
             </ResidentialAddress>
@@ -443,6 +552,27 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>HIHAR300919302</ClientId>
+            <Slk>HIHAR300919302</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Margaret</GivenName>
+            <FamilyName>Chisholm</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1930-09-30</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Spreyton</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>HIPEN011019312</ClientId>
             <Slk>HIPEN011019312</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -485,14 +615,14 @@
             </ResidentialAddress>
         </Client>
         <Client>
-            <ClientId>ILIAT180919482</ClientId>
-            <Slk>ILIAT180919482</Slk>
+            <ClientId>ILIEL250119452</ClientId>
+            <Slk>ILIEL250119452</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Patricia</GivenName>
+            <GivenName>Helen</GivenName>
             <FamilyName>Williams</FamilyName>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1948-09-18</BirthDate>
+            <BirthDate>1945-01-25</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
             <GenderCode>FEMALE</GenderCode>
             <CountryOfBirthCode>0003</CountryOfBirthCode>
@@ -527,6 +657,27 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>ILKET120519312</ClientId>
+            <Slk>ILKET120519312</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Petronella</GivenName>
+            <FamilyName>Bilyk</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1931-05-12</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Ulverstone</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7315</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>ILOER031019321</ClientId>
             <Slk>ILOER031019321</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -545,27 +696,6 @@
                 <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7310</Postcode>
-            </ResidentialAddress>
-        </Client>
-        <Client>
-            <ClientId>INELI090119282</ClientId>
-            <Slk>INELI090119282</Slk>
-            <ConsentToProvideDetails>false</ConsentToProvideDetails>
-            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Elizabeth</GivenName>
-            <FamilyName>Pinkerton</FamilyName>
-            <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1928-01-09</BirthDate>
-            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
-            <GenderCode>FEMALE</GenderCode>
-            <CountryOfBirthCode>0003</CountryOfBirthCode>
-            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
-            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
-            <HasDisabilities>false</HasDisabilities>
-            <ResidentialAddress>
-                <Suburb>Ulverstone</Suburb>
-                <StateCode>TAS</StateCode>
-                <Postcode>7315</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -632,6 +762,27 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>LEEWE081219452</ClientId>
+            <Slk>LEEWE081219452</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Gwen</GivenName>
+            <FamilyName>Llewellyn</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1945-12-08</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Spreyton</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>LLAAR300419422</ClientId>
             <Slk>LLAAR300419422</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -650,6 +801,111 @@
                 <Suburb>Port Sorell</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7307</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>MALDN260319312</ClientId>
+            <Slk>MALDN260319312</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Edna</GivenName>
+            <FamilyName>OMalley</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1931-03-26</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>MIHLI070419372</ClientId>
+            <Slk>MIHLI070419372</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Alicia</GivenName>
+            <FamilyName>Smith</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1937-04-07</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>MIHRA300519381</ClientId>
+            <Slk>MIHRA300519381</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Graham</GivenName>
+            <FamilyName>Smith</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1938-05-30</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>MALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Latrobe</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7307</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>NO2EN230719462</ClientId>
+            <Slk>NO2EN230719462</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Denise</GivenName>
+            <FamilyName>Snow</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1946-07-23</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Spreyton</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>NO2OY070619452</ClientId>
+            <Slk>NO2OY070619452</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Roy</GivenName>
+            <FamilyName>Snow</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1945-06-07</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Spreyton</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -713,6 +969,27 @@
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>OLHOI060819362</ClientId>
+            <Slk>OLHOI060819362</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Lois</GivenName>
+            <FamilyName>Rolph</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1936-08-06</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -863,24 +1140,24 @@
             </ResidentialAddress>
         </Client>
         <Client>
-            <ClientId>OWRAR250419301</ClientId>
-            <Slk>OWRAR250419301</Slk>
+            <ClientId>OX2AY230519452</ClientId>
+            <Slk>OX2AY230519452</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Harry</GivenName>
-            <FamilyName>Tower</FamilyName>
+            <GivenName>Kay</GivenName>
+            <FamilyName>Cox</FamilyName>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>1930-04-25</BirthDate>
+            <BirthDate>1945-05-23</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
-            <GenderCode>MALE</GenderCode>
+            <GenderCode>FEMALE</GenderCode>
             <CountryOfBirthCode>0003</CountryOfBirthCode>
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
             <ResidentialAddress>
-                <Suburb>Ulverstone</Suburb>
+                <Suburb>Devonport</Suburb>
                 <StateCode>TAS</StateCode>
-                <Postcode>7315</Postcode>
+                <Postcode>7310</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -968,6 +1245,27 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>RIGAW070319372</ClientId>
+            <Slk>RIGAW070319372</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Dawn</GivenName>
+            <FamilyName>Kringle</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1937-03-07</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>RONAL060819372</ClientId>
             <Slk>RONAL060819372</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -986,6 +1284,27 @@
                 <Suburb>Ulverstone</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7315</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>RONNT040119431</ClientId>
+            <Slk>RONNT040119431</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Anthony</GivenName>
+            <FamilyName>Brown</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1943-01-04</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>MALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>East Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
             </ResidentialAddress>
         </Client>
         <Client>
@@ -1052,6 +1371,48 @@
             </ResidentialAddress>
         </Client>
         <Client>
+            <ClientId>YA2AL110219372</ClientId>
+            <Slk>YA2AL110219372</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Valerie</GivenName>
+            <FamilyName>Ryan</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1937-02-11</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
+            <ClientId>YO2RE200119272</ClientId>
+            <Slk>YO2RE200119272</Slk>
+            <ConsentToProvideDetails>false</ConsentToProvideDetails>
+            <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
+            <GivenName>Freda</GivenName>
+            <FamilyName>Lyon</FamilyName>
+            <IsUsingPsuedonym>false</IsUsingPsuedonym>
+            <BirthDate>1927-01-20</BirthDate>
+            <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
+            <GenderCode>FEMALE</GenderCode>
+            <CountryOfBirthCode>0003</CountryOfBirthCode>
+            <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
+            <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
+            <HasDisabilities>false</HasDisabilities>
+            <ResidentialAddress>
+                <Suburb>Devonoport</Suburb>
+                <StateCode>TAS</StateCode>
+                <Postcode>7310</Postcode>
+            </ResidentialAddress>
+        </Client>
+        <Client>
             <ClientId>YSNLS270919202</ClientId>
             <Slk>YSNLS270919202</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
@@ -1075,12 +1436,24 @@
     </Clients>
     <Cases>
         <Case>
-            <CaseId>Burnie Day Out_NORTH-WEST</CaseId>
+            <CaseId>Chats Christmas Lunch_NORTH-WEST</CaseId>
             <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
-                    <ClientId>ALOUZ140219472</ClientId>
+                    <ClientId>AD2OY250219302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>AE2LI190819382</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>AE2ON150619281</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ANELA111119391</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ANEUN110619452</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>AREUN281019462</ClientId>
@@ -1089,22 +1462,70 @@
                     <ClientId>ATLLI301019302</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ELCAR281019462</ClientId>
+                    <ClientId>AWEOH230119451</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>COTOS271119392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EA2OY071219272</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EEEAR120419232</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EEEAW201019312</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>ES2OR251219322</ClientId>
                 </CaseClient>
                 <CaseClient>
+                    <ClientId>ESEAR030819352</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ESEHE050219492</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ETEEI131119392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HABTE050219501</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HALOY280519272</ClientId>
+                </CaseClient>
+                <CaseClient>
                     <ClientId>HEHAM070519352</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ILIAT180919482</ClientId>
+                    <ClientId>HIHAR300919302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ISEAU070919392</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>LEEAR011219372</ClientId>
                 </CaseClient>
                 <CaseClient>
+                    <ClientId>LEEWE081219452</ClientId>
+                </CaseClient>
+                <CaseClient>
                     <ClientId>LLAAR300419422</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>MIHLI070419372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>NO2EN230719462</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>NO2OY070619452</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OHSOY040119432</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>OLMEL271219182</ClientId>
@@ -1113,13 +1534,50 @@
                     <ClientId>OMRIL130619372</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>OUGOS071119382</ClientId>
+                    <ClientId>OO2TE040419481</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OR2AR270819322</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OTOAN251019332</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OUHAR300919402</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OX2AY230519452</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OY2IK110419502</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>RAGYN201019372</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>RONAL060819372</ClientId>
+                    <ClientId>RENEV050719421</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RONNT040119431</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>UREHI020519302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>YO2RE200119272</ClientId>
+                </CaseClient>
+            </CaseClients>
+        </Case>
+        <Case>
+            <CaseId>Chats Christmas day Lunch_NORTH-WEST</CaseId>
+            <OutletActivityId>10263</OutletActivityId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <CaseClients>
+                <CaseClient>
+                    <ClientId>ES2OR251219322</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RONNT040119431</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>UREHI020519302</ClientId>
@@ -1132,15 +1590,138 @@
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
-                    <ClientId>AE2LI190819382</ClientId>
+                    <ClientId>AD2OY250219302</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>INELI090119282</ClientId>
+                    <ClientId>ALEOR020119312</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ALOUZ140219472</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ATLLI301019302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>AWEOH230119451</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EA2OY071219272</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>EI2OA251119312</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ELOEL261020132</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ES2OR251219322</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ESEHE050219492</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ETEEI131119392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HEHAM070519352</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HIHAR300919302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HIPEN011019312</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HULYN280319311</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ILIEL250119452</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ILIYN290919382</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ILKET120519312</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ISEAU070919392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>LAKEL230820152</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>LEEAR011219372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>MALDN260319312</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>MIHRA300519381</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OG2AL160319451</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OHSOY040119432</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OLEEV210719322</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OLMEL271219182</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OTOAN251019332</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OUHAR300919402</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OX2AY230519452</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>PRGAT270619302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RAGYN201019372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RIGAW070319372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RONAL060819372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RONNT040119431</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>TRTUD230619392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>UCSTE310719422</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>UREHI020519302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>YA2AL110219372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>YO2RE200119272</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>YSNLS270919202</ClientId>
                 </CaseClient>
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Cinema Group_NORTH-WEST</CaseId>
+            <CaseId>Cinema group_NORTH-WEST</CaseId>
             <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1154,15 +1735,6 @@
                     <ClientId>HALOY280519272</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>LLAAR300419422</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OR2AR270819322</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OWRAR250419301</ClientId>
-                </CaseClient>
-                <CaseClient>
                     <ClientId>RONAL060819372</ClientId>
                 </CaseClient>
                 <CaseClient>
@@ -1171,57 +1743,39 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Cuppa with Chats @ East Devonport Community House_NORTH-WEST</CaseId>
+            <CaseId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST</CaseId>
             <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
-                    <ClientId>AE2LI190819382</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>AE2ON150619281</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>AKVNK030819382</ClientId>
-                </CaseClient>
-                <CaseClient>
                     <ClientId>EE2AT080119402</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>EI2OA251119312</ClientId>
+                    <ClientId>ES2OR251219322</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>HABTE050219501</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>HALOY280519272</ClientId>
+                    <ClientId>HEHAM070519352</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>ILIYN290919382</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ILOER031019321</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>LAKEL230820152</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OG2AL160319451</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OHSOY040119432</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OLEEV210719322</ClientId>
+                    <ClientId>MIHLI070419372</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>OO2TE040419481</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>OTOAN251019332</ClientId>
+                    <ClientId>OR2AR270819322</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>TRTUD230619392</ClientId>
+                    <ClientId>RENEV050719421</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RIGAW070319372</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>UCSTE310719422</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>YSNLS270919202</ClientId>
@@ -1229,123 +1783,21 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Dinner @ The Indian Curry_NORTH-WEST</CaseId>
+            <CaseId>Dinner at Leonardoz_NORTH-WEST</CaseId>
             <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
                 <CaseClient>
-                    <ClientId>HABTE050219501</ClientId>
+                    <ClientId>AD2OY250219302</ClientId>
                 </CaseClient>
-                <CaseClient>
-                    <ClientId>ILIAT180919482</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>ILOER031019321</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>LLAAR300419422</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>RENEV050719421</ClientId>
-                </CaseClient>
-            </CaseClients>
-        </Case>
-        <Case>
-            <CaseId>Lunch @ The Central_NORTH-WEST</CaseId>
-            <OutletActivityId>10263</OutletActivityId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <CaseClients>
-                <CaseClient>
-                    <ClientId>ARELA210119472</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>ARELE031119442</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>AW2OL130619422</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>ESEAR030819352</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>HEHAM070519352</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OTOAN251019332</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OUHAR300919402</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OY2IK110419502</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>PRGAT270619302</ClientId>
-                </CaseClient>
-            </CaseClients>
-        </Case>
-        <Case>
-            <CaseId>Table for 8_NORTH-WEST</CaseId>
-            <OutletActivityId>10263</OutletActivityId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <CaseClients>
                 <CaseClient>
                     <ClientId>ALOUZ140219472</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ATLLI301019302</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>EE2AT080119402</ClientId>
+                    <ClientId>ES2OR251219322</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>HEHAM070519352</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>HULYN280319311</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>ILIAT180919482</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OG2AL160319451</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OHSOY040119432</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OTOAN251019332</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>RAGYN201019372</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>TRTUD230619392</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>UCSTE310719422</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>UREHI020519302</ClientId>
-                </CaseClient>
-            </CaseClients>
-        </Case>
-        <Case>
-            <CaseId>Wings Wildlife Park_NORTH-WEST</CaseId>
-            <OutletActivityId>10263</OutletActivityId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <CaseClients>
-                <CaseClient>
-                    <ClientId>ALOUZ140219472</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>AREUN281019462</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>HEHAM070519352</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>HIPEN011019312</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>ILOER031019321</ClientId>
@@ -1354,30 +1806,18 @@
                     <ClientId>LEEAR011219372</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>OHSOY040119432</ClientId>
+                    <ClientId>OLEEV210719322</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>OMRIL130619372</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OTOAN251019332</ClientId>
+                    <ClientId>OLHOI060819362</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>OUGOS071119382</ClientId>
                 </CaseClient>
-                <CaseClient>
-                    <ClientId>OUHAR300919402</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OWRAR250419301</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>OY2IK110419502</ClientId>
-                </CaseClient>
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Woolmers Rose Festival_NORTH-WEST</CaseId>
+            <CaseId>Foodies Tour_NORTH-WEST</CaseId>
             <OutletActivityId>10263</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1385,8 +1825,27 @@
                     <ClientId>AE2LI190819382</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>AKVNK030819382</ClientId>
+                    <ClientId>AREUN281019462</ClientId>
                 </CaseClient>
+                <CaseClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ELCAR281019462</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>LAKEL230820152</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                </CaseClient>
+            </CaseClients>
+        </Case>
+        <Case>
+            <CaseId>Shopping Trip to Launceston_NORTH-WEST</CaseId>
+            <OutletActivityId>10263</OutletActivityId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <CaseClients>
                 <CaseClient>
                     <ClientId>ALOUZ140219472</ClientId>
                 </CaseClient>
@@ -1403,95 +1862,756 @@
                     <ClientId>ATLLI301019302</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>COTOS271119392</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>EA2OY071219272</ClientId>
+                    <ClientId>ELCAR281019462</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>ES2OR251219322</ClientId>
                 </CaseClient>
                 <CaseClient>
+                    <ClientId>HEHAM070519352</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ILIYN290919382</ClientId>
+                </CaseClient>
+                <CaseClient>
                     <ClientId>ISEAU070919392</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>LLAAR300419422</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>RONAL060819372</ClientId>
+                </CaseClient>
+            </CaseClients>
+        </Case>
+        <Case>
+            <CaseId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST</CaseId>
+            <OutletActivityId>10263</OutletActivityId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <CaseClients>
+                <CaseClient>
+                    <ClientId>ALHIL241119252</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>ATLLI301019302</ClientId>
+                </CaseClient>
+                <CaseClient>
+                    <ClientId>HIPEN011019312</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>OLEEV210719322</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>RAGYN201019372</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>RENEV050719421</ClientId>
-                </CaseClient>
-                <CaseClient>
-                    <ClientId>RONAL060819372</ClientId>
+                    <ClientId>OMRIL130619372</ClientId>
                 </CaseClient>
             </CaseClients>
         </Case>
     </Cases>
     <Sessions>
         <Session>
-            <SessionId>Dinner @ The Indian Curry_NORTH-WEST_06-11-2015</SessionId>
-            <CaseId>Dinner @ The Indian Curry_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-06</SessionDate>
+            <SessionId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST_02-12-2015</SessionId>
+            <CaseId>Combined Devonport/Latrobe/Port Sorrell Activity_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-02</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
-                    <ClientId>HABTE050219501</ClientId>
+                    <ClientId>EE2AT080119402</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ILIAT180919482</ClientId>
+                    <ClientId>ES2OR251219322</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ILOER031019321</ClientId>
+                    <ClientId>HEHAM070519352</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>LLAAR300419422</ClientId>
+                    <ClientId>ILIYN290919382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>MIHLI070419372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OR2AR270819322</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
                     <ClientId>RENEV050719421</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
+                <SessionClient>
+                    <ClientId>RIGAW070319372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>UCSTE310719422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>YSNLS270919202</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
             </SessionClients>
-            <TimeMinutes>295</TimeMinutes>
+            <TimeMinutes>245</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Social-Call-To_AE2LI190819382_on_06-11-2015</SessionId>
+            <SessionId>Social-Call-To_AD2OY250219302_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-06</SessionDate>
+            <SessionDate>2015-12-03</SessionDate>
             <ServiceTypeId>65</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
-                    <ClientId>AE2LI190819382</ClientId>
+                    <ClientId>AD2OY250219302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ATLLI301019302_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_EE2AT080119402_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ELOEL261020132_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ELOEL261020132</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ESEHE050219492_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ESEHE050219492</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ETEEI131119392_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ETEEI131119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_HEHAM070519352_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_HIPEN011019312_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>HIPEN011019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_HULYN280319311_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>HULYN280319311</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
             <TimeMinutes>15</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Social-Call-To_INELI090119282_on_06-11-2015</SessionId>
+            <SessionId>Social-Call-To_ILIEL250119452_on_03-12-2015</SessionId>
             <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-06</SessionDate>
+            <SessionDate>2015-12-03</SessionDate>
             <ServiceTypeId>65</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
-                    <ClientId>INELI090119282</ClientId>
+                    <ClientId>ILIEL250119452</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
-            <TimeMinutes>0</TimeMinutes>
+            <TimeMinutes>10</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Cinema Group_NORTH-WEST_10-11-2015</SessionId>
-            <CaseId>Cinema Group_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-10</SessionDate>
+            <SessionId>Social-Call-To_ILIYN290919382_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ILIYN290919382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ILKET120519312_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ILKET120519312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ISEAU070919392_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ISEAU070919392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_LEEAR011219372_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_MIHRA300519381_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>MIHRA300519381</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OG2AL160319451_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OG2AL160319451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OHSOY040119432_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OHSOY040119432</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OLEEV210719322_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OLMEL271219182_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OLMEL271219182</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OO2TE040419481_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OTOAN251019332_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OTOAN251019332</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OUHAR300919402_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OUHAR300919402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_PRGAT270619302_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>PRGAT270619302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_RIGAW070319372_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>RIGAW070319372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_RONAL060819372_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>RONAL060819372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_TRTUD230619392_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>TRTUD230619392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_UREHI020519302_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_YA2AL110219372_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>YA2AL110219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_YO2RE200119272_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>YO2RE200119272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_YSNLS270919202_on_03-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-03</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>YSNLS270919202</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST_04-12-2015</SessionId>
+            <CaseId>Ulverstone Area Activity-Renaessance cafe_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-04</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ALHIL241119252</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>HIPEN011019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OMRIL130619372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>277</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_RAGYN201019372_on_04-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-04</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>RAGYN201019372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>15</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ALEOR020119312_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ALEOR020119312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>30</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ALOUZ140219472_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ALOUZ140219472</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>30</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_AWEOH230119451_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>AWEOH230119451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_EA2OY071219272_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>EA2OY071219272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_EI2OA251119312_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>EI2OA251119312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>20</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_ES2OR251219322_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_HIHAR300919302_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>HIHAR300919302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_LAKEL230820152_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>LAKEL230820152</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_MALDN260319312_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>MALDN260319312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_OX2AY230519452_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>OX2AY230519452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_RONNT040119431_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>RONNT040119431</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_UCSTE310719422_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>UCSTE310719422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>5</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Social-Call-To_UREHI020519302_on_07-12-2015</SessionId>
+            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-07</SessionDate>
+            <ServiceTypeId>65</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>10</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Cinema group_NORTH-WEST_08-12-2015</SessionId>
+            <CaseId>Cinema group_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-08</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
@@ -1508,18 +2628,6 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>LLAAR300419422</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OR2AR270819322</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OWRAR250419301</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
                     <ClientId>RONAL060819372</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
@@ -1528,25 +2636,115 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
-            <TimeMinutes>271</TimeMinutes>
+            <TimeMinutes>275</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Lunch @ The Central_NORTH-WEST_12-11-2015</SessionId>
-            <CaseId>Lunch @ The Central_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-12</SessionDate>
+            <SessionId>Dinner at Leonardoz_NORTH-WEST_11-12-2015</SessionId>
+            <CaseId>Dinner at Leonardoz_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-11</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
                 <SessionClient>
-                    <ClientId>ARELA210119472</ClientId>
+                    <ClientId>AD2OY250219302</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ARELE031119442</ClientId>
+                    <ClientId>ALOUZ140219472</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>AW2OL130619422</ClientId>
+                    <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ILOER031019321</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OLEEV210719322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OLHOI060819362</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OUGOS071119382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>299</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Chats Christmas Lunch_NORTH-WEST_15-12-2015</SessionId>
+            <CaseId>Chats Christmas Lunch_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-15</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>AD2OY250219302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>AE2LI190819382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>AE2ON150619281</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ANELA111119391</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ANEUN110619452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>AREUN281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ATLLI301019302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>AWEOH230119451</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>COTOS271119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>EA2OY071219272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>EEEAR120419232</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>EEEAW201019312</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ES2OR251219322</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
@@ -1554,7 +2752,75 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
+                    <ClientId>ESEHE050219492</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ETEEI131119392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>HABTE050219501</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>HALOY280519272</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
                     <ClientId>HEHAM070519352</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>HIHAR300919302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ISEAU070919392</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>LEEAR011219372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>LEEWE081219452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>LLAAR300419422</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>MIHLI070419372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>NO2EN230719462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>NO2OY070619452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OHSOY040119432</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OLMEL271219182</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OMRIL130619372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OR2AR270819322</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
@@ -1566,59 +2832,43 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
+                    <ClientId>OX2AY230519452</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
                     <ClientId>OY2IK110419502</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>PRGAT270619302</ClientId>
+                    <ClientId>RAGYN201019372</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
-            </SessionClients>
-            <TimeMinutes>184</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Social-Call-To_AE2LI190819382_on_12-11-2015</SessionId>
-            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-12</SessionDate>
-            <ServiceTypeId>65</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
                 <SessionClient>
-                    <ClientId>AE2LI190819382</ClientId>
+                    <ClientId>RENEV050719421</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
-            </SessionClients>
-            <TimeMinutes>15</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Social-Call-To_INELI090119282_on_12-11-2015</SessionId>
-            <CaseId>Chats Social Calls_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-12</SessionDate>
-            <ServiceTypeId>65</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
                 <SessionClient>
-                    <ClientId>INELI090119282</ClientId>
+                    <ClientId>RONNT040119431</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>UREHI020519302</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>YO2RE200119272</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
-            <TimeMinutes>15</TimeMinutes>
+            <TimeMinutes>185</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Woolmers Rose Festival_NORTH-WEST_15-11-2015</SessionId>
-            <CaseId>Woolmers Rose Festival_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-15</SessionDate>
+            <SessionId>Shopping Trip to Launceston_NORTH-WEST_17-12-2015</SessionId>
+            <CaseId>Shopping Trip to Launceston_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-17</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <SessionClients>
-                <SessionClient>
-                    <ClientId>AE2LI190819382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>AKVNK030819382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
                 <SessionClient>
                     <ClientId>ALOUZ140219472</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
@@ -1640,272 +2890,6 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>COTOS271119392</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>EA2OY071219272</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ES2OR251219322</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ISEAU070919392</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OLEEV210719322</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>RAGYN201019372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>RENEV050719421</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>RONAL060819372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-            </SessionClients>
-            <TimeMinutes>565</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Table for 8_NORTH-WEST_17-11-2015</SessionId>
-            <CaseId>Table for 8_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-17</SessionDate>
-            <ServiceTypeId>63</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
-                <SessionClient>
-                    <ClientId>ALOUZ140219472</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ATLLI301019302</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>EE2AT080119402</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>HEHAM070519352</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>HULYN280319311</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ILIAT180919482</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OG2AL160319451</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OHSOY040119432</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OTOAN251019332</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>RAGYN201019372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>TRTUD230619392</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>UCSTE310719422</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>UREHI020519302</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-            </SessionClients>
-            <TimeMinutes>233</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Wings Wildlife Park_NORTH-WEST_19-11-2015</SessionId>
-            <CaseId>Wings Wildlife Park_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-19</SessionDate>
-            <ServiceTypeId>63</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
-                <SessionClient>
-                    <ClientId>HEHAM070519352</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>HIPEN011019312</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ILOER031019321</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>LEEAR011219372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OTOAN251019332</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OUHAR300919402</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OWRAR250419301</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OY2IK110419502</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-            </SessionClients>
-            <TimeMinutes>230</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Wings Wildlife Park_NORTH-WEST_23-11-2015</SessionId>
-            <CaseId>Wings Wildlife Park_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-23</SessionDate>
-            <ServiceTypeId>63</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
-                <SessionClient>
-                    <ClientId>ALOUZ140219472</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>AREUN281019462</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OHSOY040119432</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OMRIL130619372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OUGOS071119382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-            </SessionClients>
-            <TimeMinutes>478</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Cuppa with Chats @ East Devonport Community House_NORTH-WEST_25-11-2015</SessionId>
-            <CaseId>Cuppa with Chats @ East Devonport Community House_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-25</SessionDate>
-            <ServiceTypeId>63</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
-                <SessionClient>
-                    <ClientId>AE2LI190819382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>AE2ON150619281</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>AKVNK030819382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>EE2AT080119402</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>EI2OA251119312</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>HABTE050219501</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>HALOY280519272</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ILIYN290919382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ILOER031019321</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>LAKEL230820152</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OG2AL160319451</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OHSOY040119432</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OLEEV210719322</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OO2TE040419481</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OTOAN251019332</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>TRTUD230619392</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>YSNLS270919202</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-            </SessionClients>
-            <TimeMinutes>234</TimeMinutes>
-        </Session>
-        <Session>
-            <SessionId>Burnie Day Out_NORTH-WEST_30-11-2015</SessionId>
-            <CaseId>Burnie Day Out_NORTH-WEST</CaseId>
-            <SessionDate>2015-11-30</SessionDate>
-            <ServiceTypeId>63</ServiceTypeId>
-            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
-            <SessionClients>
-                <SessionClient>
-                    <ClientId>ALOUZ140219472</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>AREUN281019462</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>ATLLI301019302</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
                     <ClientId>ELCAR281019462</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
@@ -1918,11 +2902,11 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ILIAT180919482</ClientId>
+                    <ClientId>ILIYN290919382</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>LEEAR011219372</ClientId>
+                    <ClientId>ISEAU070919392</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
@@ -1930,23 +2914,59 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>OLMEL271219182</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OMRIL130619372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>OUGOS071119382</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
-                    <ClientId>RAGYN201019372</ClientId>
-                    <ParticipationCode>CLIENT</ParticipationCode>
-                </SessionClient>
-                <SessionClient>
                     <ClientId>RONAL060819372</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>586</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Foodies Tour_NORTH-WEST_23-12-2015</SessionId>
+            <CaseId>Foodies Tour_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-23</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>AE2LI190819382</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>AREUN281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>EE2AT080119402</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>ELCAR281019462</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>LAKEL230820152</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>OO2TE040419481</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+            </SessionClients>
+            <TimeMinutes>457</TimeMinutes>
+        </Session>
+        <Session>
+            <SessionId>Chats Christmas day Lunch_NORTH-WEST_25-12-2015</SessionId>
+            <CaseId>Chats Christmas day Lunch_NORTH-WEST</CaseId>
+            <SessionDate>2015-12-25</SessionDate>
+            <ServiceTypeId>63</ServiceTypeId>
+            <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
+            <SessionClients>
+                <SessionClient>
+                    <ClientId>ES2OR251219322</ClientId>
+                    <ParticipationCode>CLIENT</ParticipationCode>
+                </SessionClient>
+                <SessionClient>
+                    <ClientId>RONNT040119431</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
@@ -1954,7 +2974,7 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
             </SessionClients>
-            <TimeMinutes>526</TimeMinutes>
+            <TimeMinutes>230</TimeMinutes>
         </Session>
     </Sessions>
 </DEXFileUpload>

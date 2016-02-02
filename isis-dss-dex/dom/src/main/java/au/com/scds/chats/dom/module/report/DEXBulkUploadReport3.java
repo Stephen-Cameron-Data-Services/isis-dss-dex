@@ -63,8 +63,15 @@ public class DEXBulkUploadReport3 {
 	private ReferenceData refData;
 	private ClientIdGenerationMode mode;
 
+	private int outletActivityId;
+	private final int TELEPHONE_WEB_CONTACT = 65;
+	private final int SOCIAL_SUPPORT_GROUP = 63;
+	private final int OUTLET_ACTIVITY_ID_NORTH = 10262;
+	private final int OUTLET_ACTIVITY_ID_NORTHWEST = 10263;
+	private final int OUTLET_ACTIVITY_ID_SOUTH = 10260;
+
 	public enum ClientIdGenerationMode {
-		NATURAL_KEY, HASH_KEY
+		NATURAL_KEY, SLK_KEY
 	}
 
 	// make an Activity-Region-Date map
@@ -73,7 +80,6 @@ public class DEXBulkUploadReport3 {
 	Map<String, Map<String, au.com.scds.chats.dom.temp.Session>> valids;
 	Map<String, Person> persons;
 	Map<String, Map<String, Person>> caseClients;
-	private Person unknownPerson;
 
 	private DEXBulkUploadReport3() {
 	}
@@ -84,7 +90,7 @@ public class DEXBulkUploadReport3 {
 		this.clients = new Clients();
 		this.cases = new Cases();
 		this.sessions = new Sessions();
-		this.mode = ClientIdGenerationMode.HASH_KEY;
+		this.mode = ClientIdGenerationMode.SLK_KEY;
 
 		this.valids = new TreeMap<String, Map<String, au.com.scds.chats.dom.temp.Session>>();
 		this.persons = new TreeMap<String, Person>();
@@ -96,11 +102,18 @@ public class DEXBulkUploadReport3 {
 		this.month = month;
 		this.bornBeforeDate = new LocalDate(year, month, 1).minusYears(65);
 		this.region = region;
-		// this.persons = persons2;
-		this.unknownPerson = new Person();
-		this.unknownPerson.setFirstname("UNKNOWN");
-		this.unknownPerson.setSurname("PERSON");
-		this.unknownPerson.setBirthdate(new LocalDate("1900-01-01"));
+
+		if (this.region.getName().equals("NORTH")) {
+			this.outletActivityId = this.OUTLET_ACTIVITY_ID_NORTH;
+
+
+		} else if (this.region.getName().equals("NORTH-WEST")) {
+			this.outletActivityId = this.OUTLET_ACTIVITY_ID_NORTHWEST;
+
+
+		} else if (this.region.getName().equals("SOUTH")) {
+			this.outletActivityId = this.OUTLET_ACTIVITY_ID_SOUTH;
+		}
 	}
 
 	public DEXFileUpload build() throws Exception {
@@ -137,12 +150,12 @@ public class DEXBulkUploadReport3 {
 			Address s = p.getStreetAddress();
 			if (s != null) {
 				ResidentialAddress a = new ResidentialAddress();
-				a.setAddressLine1(s.getStreet1());
+				/*a.setAddressLine1(s.getStreet1());
 				if (s.getStreet2() == null || s.getStreet2().trim().length() == 0) {
 					a.setAddressLine2(null);
 				} else {
 					a.setAddressLine2(s.getStreet2());
-				}
+				}*/
 				a.setSuburb(s.getSuburb());
 				a.setPostcode(s.getPostcode());
 				a.setStateCode("TAS");
@@ -155,7 +168,7 @@ public class DEXBulkUploadReport3 {
 	private void getSessions() {
 		List<au.com.scds.chats.dom.temp.Session> sessions = container
 				.allMatches(new QueryDefault(au.com.scds.chats.dom.temp.Session.class, "find"));
-		Person p;
+		Person p = null;
 		Integer totalDuration = 0;
 		Integer totalCount = 0;
 		for (au.com.scds.chats.dom.temp.Session s : sessions) {
@@ -165,8 +178,7 @@ public class DEXBulkUploadReport3 {
 					p = s.getPerson();
 				} catch (NucleusObjectNotFoundException e) {
 					System.out.println("UNKNOWN PERSON FOR SESSION: " + s.getId());
-					s.setPerson(this.unknownPerson);
-					p = s.getPerson();
+					System.exit(1);
 				}
 				String sessionKey = s.getInteractionDate().toString("YYYYMMdd") + "_" + s.getActivity().trim() + "_"
 						+ s.getRegion().trim();
@@ -174,7 +186,7 @@ public class DEXBulkUploadReport3 {
 					valids.put(sessionKey, new TreeMap<String, au.com.scds.chats.dom.temp.Session>());
 				String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
 						+ p.getBirthdate().toString("dd-MM-YYYY");
-				if (mode == ClientIdGenerationMode.HASH_KEY) {
+				if (mode == ClientIdGenerationMode.SLK_KEY) {
 					personKey = makeSLK(p);
 				}
 				// calls to same person on same day
@@ -214,6 +226,8 @@ public class DEXBulkUploadReport3 {
 							+ n.getValue().getInteractionDate().toString("dd-MM-YYYY");
 					session.setCaseId(caseId);
 					session.setSessionId(sessionId);
+					session.setServiceTypeId(this.TELEPHONE_WEB_CONTACT);
+					session.setTotalNumberOfUnidentifiedClients(0);
 					session.setTimeMinutes(n.getValue().getDuration());
 					session.setSessionDate(n.getValue().getInteractionDate());
 					SessionClient client = new SessionClient();
@@ -239,7 +253,9 @@ public class DEXBulkUploadReport3 {
 						sessionId = caseId + "_" + n.getValue().getInteractionDate().toString("dd-MM-YYYY");
 						session.setCaseId(caseId);
 						session.setSessionId(sessionId);
+						session.setTotalNumberOfUnidentifiedClients(0);
 						session.setSessionDate(n.getValue().getInteractionDate());
+						session.setServiceTypeId(this.SOCIAL_SUPPORT_GROUP);
 					}
 					SessionClient client = new SessionClient();
 					clients.getSessionClient().add(client);
@@ -266,15 +282,7 @@ public class DEXBulkUploadReport3 {
 			cases.getCase().add(c);
 			c.setCaseClients(new CaseClients());
 			c.setCaseId(activityName);
-			if (region.getName().equals("NORTH-WEST")) {
-				c.setOutletActivityId(601);
-			} else if (region.getName().equals("NORTH")) {
-				c.setOutletActivityId(602);
-			} else if (region.getName().equals("SOUTH")) {
-				c.setOutletActivityId(603);
-			} else {
-				throw new Exception("Region not valid");
-			}
+			c.setOutletActivityId(this.outletActivityId);
 			c.setTotalNumberOfUnidentifiedClients(0);
 			for (Entry<String, Person> p : caseClients.get(activityName).entrySet()) {
 				CaseClient cc = new CaseClient();
@@ -283,7 +291,6 @@ public class DEXBulkUploadReport3 {
 				// TODO cc.setExitReasonCode(p.getStatus());
 			}
 		}
-
 	}
 
 	private String makeSLK(Person p) {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OrganisationActivities xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OrganisationActivity>
+		<OrganisationActivityId>3138</OrganisationActivityId>
+		<ProgramActivityName>Community and Home Support</ProgramActivityName>
+		<StartDate>2015-11-01T00:00:00</StartDate>
+		<EndDate>2018-06-30T00:00:00</EndDate>
+		<DeliveringOnBehalfOfAnotherOrganisation>false</DeliveringOnBehalfOfAnotherOrganisation>
+		<HasPartnershipEnded xsi:nil="true" />
+	</OrganisationActivity>
+</OrganisationActivities>

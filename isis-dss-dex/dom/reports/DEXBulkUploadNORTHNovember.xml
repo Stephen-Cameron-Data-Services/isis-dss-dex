@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DEXFileUpload>
+<?xml-stylesheet type="text/xsl" href="dex.xsl"?>
+<DEXFileUpload
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xml/DEXFileUpload.xsd">
     <Clients>
         <Client>
             <ClientId>ACUNN060319432</ClientId>
             <Slk>ACUNN060319432</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Anne</GivenName>
-            <FamilyName>Macaulay</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1943-03-06</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -16,19 +20,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newnham</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7248</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>AKEAT140619412</ClientId>
             <Slk>AKEAT140619412</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Patricia</GivenName>
-            <FamilyName>Bakker</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1941-06-14</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -37,19 +45,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Youngtown</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7249</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>AMSOI020519302</ClientId>
             <Slk>AMSOI020519302</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Lois</GivenName>
-            <FamilyName>James</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1930-05-02</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -58,19 +70,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newnham</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7248</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ANEAR240919302</ClientId>
             <Slk>ANEAR240919302</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Maria</GivenName>
-            <FamilyName>Jansen</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1930-09-24</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -79,19 +95,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Legana</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7277</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>AREUN150119322</ClientId>
             <Slk>AREUN150119322</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>June</GivenName>
-            <FamilyName>Carter</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1932-01-15</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -100,19 +120,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Trevallyn</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ATLAR010919322</ClientId>
             <Slk>ATLAR010919322</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Barbara</GivenName>
-            <FamilyName>Sattler</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1932-09-01</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -121,19 +145,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>East Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>AWEAR240219171</ClientId>
             <Slk>AWEAR240219171</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Harold</GivenName>
-            <FamilyName>Hawley</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1917-02-24</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -142,19 +170,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Waverley</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>AZNLE060119402</ClientId>
             <Slk>AZNLE060119402</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Eleanor</GivenName>
-            <FamilyName>Mazengarb</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1940-01-06</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -163,19 +195,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>South Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7249</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>CQARA251119312</ClientId>
             <Slk>CQARA251119312</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Grazia</GivenName>
-            <FamilyName>Acquarola</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1931-11-25</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -184,19 +220,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Riverside</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>EAEHR171119412</ClientId>
             <Slk>EAEHR171119412</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Chris</GivenName>
-            <FamilyName>Deaner</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1941-11-17</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -205,19 +245,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newstead</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>EAOAR250519292</ClientId>
             <Slk>EAOAR250519292</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Margarite</GivenName>
-            <FamilyName>Deacon</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1929-05-25</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -226,19 +270,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Norwood</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ENAON060919331</ClientId>
             <Slk>ENAON060919331</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Ron</GivenName>
-            <FamilyName>Denman</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1933-09-06</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -247,19 +295,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect Vale</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ERIVO230819382</ClientId>
             <Slk>ERIVO230819382</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Uvonnie</GivenName>
-            <FamilyName> Perkins</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1938-08-23</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -268,19 +320,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Summerhill</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ERRMI070319362</ClientId>
             <Slk>ERRMI070319362</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Amilcare</GivenName>
-            <FamilyName>Berarducci</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1936-03-07</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -289,19 +345,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Riverside</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ESRAT131219382</ClientId>
             <Slk>ESRAT131219382</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Fatima</GivenName>
-            <FamilyName>Mestre</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1938-12-13</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -310,40 +370,48 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>St Leonards</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
-            <ClientId>ETOOL220120162</ClientId>
-            <Slk>ETOOL220120162</Slk>
+            <ClientId>ETOOL300919262</ClientId>
+            <Slk>ETOOL300919262</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Molly</GivenName>
-            <FamilyName>Jetson</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
-            <BirthDate>2016-01-22</BirthDate>
+            <BirthDate>1926-09-30</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
             <GenderCode>FEMALE</GenderCode>
             <CountryOfBirthCode>0003</CountryOfBirthCode>
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>HUGOL220119442</ClientId>
             <Slk>HUGOL220119442</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Lola</GivenName>
-            <FamilyName>Chugg</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1944-01-22</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -352,19 +420,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Summerhill</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>INSUA011119332</ClientId>
             <Slk>INSUA011119332</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Juanita</GivenName>
-            <FamilyName>Hinds</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1933-11-01</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -373,19 +445,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Sth Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>IT2HR100119502</ClientId>
             <Slk>IT2HR100119502</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Christine</GivenName>
-            <FamilyName>Pitt</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1950-01-10</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -394,19 +470,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newnham</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7248</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>LAEEV070419322</ClientId>
             <Slk>LAEEV070419322</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Beverley</GivenName>
-            <FamilyName>Slater</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1932-04-07</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -415,19 +495,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>LATLI080319412</ClientId>
             <Slk>LATLI080319412</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Elizabeth</GivenName>
-            <FamilyName>Clayton</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1941-03-08</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -436,19 +520,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Legana</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7277</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>MAYAN150919352</ClientId>
             <Slk>MAYAN150919352</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Janette</GivenName>
-            <FamilyName>(Mary-Jane) Smith</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1935-09-15</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -457,19 +545,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect Vale</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>MBOHI230419362</ClientId>
             <Slk>MBOHI230419362</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Shirley</GivenName>
-            <FamilyName>Ambrose</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1936-04-23</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -478,19 +570,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>St. Leonards</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>NEAAT221019292</ClientId>
             <Slk>NEAAT221019292</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Patricia</GivenName>
-            <FamilyName>Knehans</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1929-10-22</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -499,19 +595,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newnham</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7248</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>NOLLI100919352</ClientId>
             <Slk>NOLLI100919352</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Elizabeth</GivenName>
-            <FamilyName>Knowles</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1935-09-10</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -520,19 +620,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newnham</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7248</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OBRAT210319272</ClientId>
             <Slk>OBRAT210319272</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Pat</GivenName>
-            <FamilyName>Robertson</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1927-03-21</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -541,19 +645,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect Vale</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>ONAOR261119421</ClientId>
             <Slk>ONAOR261119421</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Gordon</GivenName>
-            <FamilyName>Conway</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1942-11-26</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -562,19 +670,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Summerhill</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OROAR190819422</ClientId>
             <Slk>OROAR190819422</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Carmen</GivenName>
-            <FamilyName>Dorion</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1942-08-19</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -583,19 +695,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Conara</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7211</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OROET191019352</ClientId>
             <Slk>OROET191019352</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Peter</GivenName>
-            <FamilyName>Morcom</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1935-10-19</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -604,19 +720,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>South Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7249</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OROUD130819422</ClientId>
             <Slk>OROUD130819422</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Judith</GivenName>
-            <FamilyName>Morcom</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1942-08-13</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -625,19 +745,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>South Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7249</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OUEIL241019292</ClientId>
             <Slk>OUEIL241019292</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Eileen</GivenName>
-            <FamilyName>Couper</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1929-10-24</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -646,19 +770,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Blackstone Heights</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>OUGHI250119332</ClientId>
             <Slk>OUGHI250119332</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Shirley</GivenName>
-            <FamilyName>Younghusband</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1933-01-25</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -667,19 +795,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Newstead</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>PP2AU290319442</ClientId>
             <Slk>PP2AU290319442</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Maureen</GivenName>
-            <FamilyName>Apps</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1944-03-29</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -688,19 +820,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>RECOB250119452</ClientId>
             <Slk>RECOB250119452</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Robyn</GivenName>
-            <FamilyName>Bresciani</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1945-01-25</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -709,19 +845,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Nolrwood</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>RIHOB240519232</ClientId>
             <Slk>RIHOB240519232</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Robin</GivenName>
-            <FamilyName>Wright</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1923-05-24</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -730,19 +870,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>TAFAR310519432</ClientId>
             <Slk>TAFAR310519432</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Marilyn</GivenName>
-            <FamilyName>Stafford</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1943-05-31</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -751,19 +895,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Trevallyn</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>UFEAT170819432</ClientId>
             <Slk>UFEAT170819432</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Patricia</GivenName>
-            <FamilyName>Cuffe</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1943-08-17</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -772,19 +920,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Proispect Vale</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>UG2OM061019312</ClientId>
             <Slk>UG2OM061019312</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Tomima</GivenName>
-            <FamilyName>Fuge</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1931-10-06</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -793,19 +945,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Riverside</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>UREAT291219332</ClientId>
             <Slk>UREAT291219332</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Patricia</GivenName>
-            <FamilyName>Turner</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1933-12-29</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -814,19 +970,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Riverside</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>UTOHI240619482</ClientId>
             <Slk>UTOHI240619482</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Shirley</GivenName>
-            <FamilyName>Button</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1948-06-24</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -835,19 +995,23 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>Prospect</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7250</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
         <Client>
             <ClientId>UYOUD130419402</ClientId>
             <Slk>UYOUD130419402</Slk>
             <ConsentToProvideDetails>false</ConsentToProvideDetails>
             <ConsentedForFutureContacts>false</ConsentedForFutureContacts>
-            <GivenName>Judith</GivenName>
-            <FamilyName>Guyton</FamilyName>
+            <GivenName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            <FamilyName xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
             <IsUsingPsuedonym>false</IsUsingPsuedonym>
             <BirthDate>1940-04-13</BirthDate>
             <IsBirthDateAnEstimate>false</IsBirthDateAnEstimate>
@@ -856,16 +1020,20 @@
             <LanguageSpokenAtHomeCode>0002</LanguageSpokenAtHomeCode>
             <AboriginalOrTorresStraitIslanderOriginCode>NOTSTATED</AboriginalOrTorresStraitIslanderOriginCode>
             <HasDisabilities>false</HasDisabilities>
+            <AccommodationTypeCode>NOTSTATED</AccommodationTypeCode>
+            <DVACardStatusCode>NODVA</DVACardStatusCode>
+            <HasCarer>false</HasCarer>
             <ResidentialAddress>
                 <Suburb>South Launceston</Suburb>
                 <StateCode>TAS</StateCode>
                 <Postcode>7249</Postcode>
             </ResidentialAddress>
+            <HouseholdCompositionCode>NOTSTATED</HouseholdCompositionCode>
         </Client>
     </Clients>
     <Cases>
         <Case>
-            <CaseId>Chats Lunch_NORTH</CaseId>
+            <CaseId>ChatsLunchN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -900,7 +1068,7 @@
                     <ClientId>ESRAT131219382</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ETOOL220120162</ClientId>
+                    <ClientId>ETOOL300919262</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>INSUA011119332</ClientId>
@@ -935,7 +1103,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Country Music Wall Day_NORTH</CaseId>
+            <CaseId>CountryMusicWallDayN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -972,7 +1140,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Crafty Chatsters_NORTH</CaseId>
+            <CaseId>CraftyChatstersN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -988,7 +1156,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Fishing Time_NORTH</CaseId>
+            <CaseId>FishingTimeN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1007,7 +1175,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Free Flick: Pitch Perfect 2_NORTH</CaseId>
+            <CaseId>FreeFlick:PitchPerfect2N</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1024,7 +1192,7 @@
                     <ClientId>ESRAT131219382</ClientId>
                 </CaseClient>
                 <CaseClient>
-                    <ClientId>ETOOL220120162</ClientId>
+                    <ClientId>ETOOL300919262</ClientId>
                 </CaseClient>
                 <CaseClient>
                     <ClientId>INSUA011119332</ClientId>
@@ -1059,7 +1227,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Op Shop Crawl_NORTH</CaseId>
+            <CaseId>OpShopCrawlN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1078,7 +1246,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Round Table Lunch - Riverside Hotel_NORTH</CaseId>
+            <CaseId>RoundTableLunchRiversideN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1103,7 +1271,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Walkie Talkie - Tamar Wetlands_NORTH</CaseId>
+            <CaseId>WalkieTalkie-TamarWetlandsN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1131,7 +1299,7 @@
             </CaseClients>
         </Case>
         <Case>
-            <CaseId>Woolmers Rose Festival_NORTH</CaseId>
+            <CaseId>WoolmersRoseFestivalN</CaseId>
             <OutletActivityId>10262</OutletActivityId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
             <CaseClients>
@@ -1179,8 +1347,8 @@
     </Cases>
     <Sessions>
         <Session>
-            <SessionId>Country Music Wall Day_NORTH_01-11-2015</SessionId>
-            <CaseId>Country Music Wall Day_NORTH</CaseId>
+            <SessionId>19424423501112015</SessionId>
+            <CaseId>CountryMusicWallDayN</CaseId>
             <SessionDate>2015-11-01</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1229,8 +1397,8 @@
             <TimeMinutes>264</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Crafty Chatsters_NORTH_04-11-2015</SessionId>
-            <CaseId>Crafty Chatsters_NORTH</CaseId>
+            <SessionId>78525587804112015</SessionId>
+            <CaseId>CraftyChatstersN</CaseId>
             <SessionDate>2015-11-04</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1251,8 +1419,8 @@
             <TimeMinutes>300</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Free Flick: Pitch Perfect 2_NORTH_09-11-2015</SessionId>
-            <CaseId>Free Flick: Pitch Perfect 2_NORTH</CaseId>
+            <SessionId>66559388409112015</SessionId>
+            <CaseId>FreeFlick:PitchPerfect2N</CaseId>
             <SessionDate>2015-11-09</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1274,7 +1442,7 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ETOOL220120162</ClientId>
+                    <ClientId>ETOOL300919262</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
@@ -1321,8 +1489,8 @@
             <TimeMinutes>342</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Fishing Time_NORTH_10-11-2015</SessionId>
-            <CaseId>Fishing Time_NORTH</CaseId>
+            <SessionId>80586722310112015</SessionId>
+            <CaseId>FishingTimeN</CaseId>
             <SessionDate>2015-11-10</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1347,8 +1515,8 @@
             <TimeMinutes>420</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Round Table Lunch - Riverside Hotel_NORTH_12-11-2015</SessionId>
-            <CaseId>Round Table Lunch - Riverside Hotel_NORTH</CaseId>
+            <SessionId>42899687512112015</SessionId>
+            <CaseId>RoundTableLunchRiversideN</CaseId>
             <SessionDate>2015-11-12</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1381,8 +1549,8 @@
             <TimeMinutes>255</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Woolmers Rose Festival_NORTH_15-11-2015</SessionId>
-            <CaseId>Woolmers Rose Festival_NORTH</CaseId>
+            <SessionId>120105120715112015</SessionId>
+            <CaseId>WoolmersRoseFestivalN</CaseId>
             <SessionDate>2015-11-15</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1443,8 +1611,8 @@
             <TimeMinutes>540</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Walkie Talkie - Tamar Wetlands_NORTH_17-11-2015</SessionId>
-            <CaseId>Walkie Talkie - Tamar Wetlands_NORTH</CaseId>
+            <SessionId>203247373317112015</SessionId>
+            <CaseId>WalkieTalkie-TamarWetlandsN</CaseId>
             <SessionDate>2015-11-17</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1481,8 +1649,8 @@
             <TimeMinutes>282</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Op Shop Crawl_NORTH_19-11-2015</SessionId>
-            <CaseId>Op Shop Crawl_NORTH</CaseId>
+            <SessionId>168385318619112015</SessionId>
+            <CaseId>OpShopCrawlN</CaseId>
             <SessionDate>2015-11-19</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1507,8 +1675,8 @@
             <TimeMinutes>480</TimeMinutes>
         </Session>
         <Session>
-            <SessionId>Chats Lunch_NORTH_26-11-2015</SessionId>
-            <CaseId>Chats Lunch_NORTH</CaseId>
+            <SessionId>105012883326112015</SessionId>
+            <CaseId>ChatsLunchN</CaseId>
             <SessionDate>2015-11-26</SessionDate>
             <ServiceTypeId>63</ServiceTypeId>
             <TotalNumberOfUnidentifiedClients>0</TotalNumberOfUnidentifiedClients>
@@ -1554,7 +1722,7 @@
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>
-                    <ClientId>ETOOL220120162</ClientId>
+                    <ClientId>ETOOL300919262</ClientId>
                     <ParticipationCode>CLIENT</ParticipationCode>
                 </SessionClient>
                 <SessionClient>

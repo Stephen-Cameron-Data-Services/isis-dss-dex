@@ -93,7 +93,11 @@ import org.joda.time.LocalDate;
     "languageSpokenAtHomeCode",
     "aboriginalOrTorresStraitIslanderOriginCode",
     "hasDisabilities",
-    "residentialAddress"
+    "accommodationTypeCode",
+    "dvaCardStatusCode",
+    "hasCarer",
+    "residentialAddress",
+    "householdCompositionCode"
 })
 public class Client {
 
@@ -127,8 +131,17 @@ public class Client {
     protected String aboriginalOrTorresStraitIslanderOriginCode;
     @XmlElement(name = "HasDisabilities")
     protected boolean hasDisabilities;
+    @XmlElement(name = "AccommodationTypeCode")
+    protected String accommodationTypeCode;
+    @XmlElement(name = "DVACardStatusCode")
+    protected String dvaCardStatusCode;
+    @XmlElement(name = "HasCarer", nillable = true)
+    protected Boolean hasCarer;
     @XmlElement(name = "ResidentialAddress", required = true)
     protected ResidentialAddress residentialAddress;
+    @XmlElement(name = "HouseholdCompositionCode", nillable = true)
+    protected String householdCompositionCode;
+
 
     /**
      * Gets the value of the clientId property.
@@ -450,7 +463,55 @@ public class Client {
         this.residentialAddress = value;
     }
 
-    /**
+    public boolean isUsingPsuedonym() {
+		return isUsingPsuedonym;
+	}
+
+	public void setUsingPsuedonym(boolean isUsingPsuedonym) {
+		this.isUsingPsuedonym = isUsingPsuedonym;
+	}
+
+	public boolean isBirthDateAnEstimate() {
+		return isBirthDateAnEstimate;
+	}
+
+	public void setBirthDateAnEstimate(boolean isBirthDateAnEstimate) {
+		this.isBirthDateAnEstimate = isBirthDateAnEstimate;
+	}
+
+	public String getAccommodationTypeCode() {
+		return accommodationTypeCode;
+	}
+
+	public void setAccommodationTypeCode(String accommodationTypeCode) {
+		this.accommodationTypeCode = accommodationTypeCode;
+	}
+
+	public String getDvaCardStatusCode() {
+		return dvaCardStatusCode;
+	}
+
+	public void setDvaCardStatusCode(String dvaCardStatusCode) {
+		this.dvaCardStatusCode = dvaCardStatusCode;
+	}
+
+	public Boolean getHasCarer() {
+		return hasCarer;
+	}
+
+	public void setHasCarer(Boolean hasCarer) {
+		this.hasCarer = hasCarer;
+	}
+
+	public String getHouseholdCompositionCode() {
+		return householdCompositionCode;
+	}
+
+	public void setHouseholdCompositionCode(String householdCompositionCode) {
+		this.householdCompositionCode = householdCompositionCode;
+	}
+
+	/**
      * <p>Java class for anonymous complex type.
      * 
      * <p>The following schema fragment specifies the expected content contained within this class.

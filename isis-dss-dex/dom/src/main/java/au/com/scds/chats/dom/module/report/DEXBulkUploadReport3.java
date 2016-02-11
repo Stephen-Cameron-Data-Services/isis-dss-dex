@@ -106,10 +106,8 @@ public class DEXBulkUploadReport3 {
 		if (this.region.getName().equals("NORTH")) {
 			this.outletActivityId = this.OUTLET_ACTIVITY_ID_NORTH;
 
-
 		} else if (this.region.getName().equals("NORTH-WEST")) {
 			this.outletActivityId = this.OUTLET_ACTIVITY_ID_NORTHWEST;
-
 
 		} else if (this.region.getName().equals("SOUTH")) {
 			this.outletActivityId = this.OUTLET_ACTIVITY_ID_SOUTH;
@@ -137,8 +135,8 @@ public class DEXBulkUploadReport3 {
 			c.setSlk(makeSLK(p));
 			c.setConsentToProvideDetails(false);
 			c.setConsentedForFutureContacts(false);
-			c.setGivenName(p.getFirstname());
-			c.setFamilyName(p.getSurname());
+			c.setGivenName(null/*p.getFirstname()*/);
+			c.setFamilyName(null/*p.getSurname()*/);
 			c.setIsUsingPsuedonym(false);
 			c.setBirthDate(p.getBirthdate());
 			c.setIsBirthDateAnEstimate(false);
@@ -147,15 +145,19 @@ public class DEXBulkUploadReport3 {
 			c.setLanguageSpokenAtHomeCode("0002");
 			c.setAboriginalOrTorresStraitIslanderOriginCode("NOTSTATED");
 			c.setHasDisabilities(false);
+			c.setAccommodationTypeCode("NOTSTATED");
+			c.setDvaCardStatusCode("NODVA");
+			c.setHasCarer(false);
+			c.setHouseholdCompositionCode("NOTSTATED");
 			Address s = p.getStreetAddress();
 			if (s != null) {
 				ResidentialAddress a = new ResidentialAddress();
-				/*a.setAddressLine1(s.getStreet1());
-				if (s.getStreet2() == null || s.getStreet2().trim().length() == 0) {
-					a.setAddressLine2(null);
-				} else {
-					a.setAddressLine2(s.getStreet2());
-				}*/
+				/*
+				 * a.setAddressLine1(s.getStreet1()); if (s.getStreet2() == null
+				 * || s.getStreet2().trim().length() == 0) {
+				 * a.setAddressLine2(null); } else {
+				 * a.setAddressLine2(s.getStreet2()); }
+				 */
 				a.setSuburb(s.getSuburb());
 				a.setPostcode(s.getPostcode());
 				a.setStateCode("TAS");
@@ -173,7 +175,7 @@ public class DEXBulkUploadReport3 {
 		Integer totalCount = 0;
 		for (au.com.scds.chats.dom.temp.Session s : sessions) {
 			if (s.getRegion().trim().equals(this.region.getName())
-					&& s.getInteractionDate().getMonthOfYear() == this.month) {
+					/*&& s.getInteractionDate().getMonthOfYear() == this.month*/) {
 				try {
 					p = s.getPerson();
 				} catch (NucleusObjectNotFoundException e) {
@@ -199,8 +201,11 @@ public class DEXBulkUploadReport3 {
 					persons.put(personKey, p);
 				}
 				// cases
-				String caseKey = (s.getActivity().trim().equals("chats phone call") ? "Chats Social Calls"
-						: s.getActivity().trim()) + "_" + s.getRegion().trim();
+				String caseKey = (s.getActivity().trim().equals("chats phone call") ? "ChatsSocialCalls"
+						: s.getActivity().trim().replaceAll("\\s", "")) + regionCode(s.getRegion().trim());
+				if(caseKey.length() > 30){
+					System.out.println("ERROR: CaseId is greater than 30 characters ("+ caseKey +")");
+				}
 				if (!caseClients.containsKey(caseKey)) {
 					caseClients.put(caseKey, new TreeMap<String, Person>());
 				}
@@ -221,9 +226,9 @@ public class DEXBulkUploadReport3 {
 					this.sessions.getSession().add(session);
 					SessionClients clients = new SessionClients();
 					session.setSessionClients(clients);
-					String caseId = "Chats Social Calls" + "_" + region.getName();
-					String sessionId = "Social-Call-To_" + n.getKey() + "_on_"
-							+ n.getValue().getInteractionDate().toString("dd-MM-YYYY");
+					String caseId = "ChatsSocialCalls" + regionCode(region.getName());
+					String sessionId = "To" + n.getKey() + "On"
+							+ n.getValue().getInteractionDate().toString("ddMMYYYY");
 					session.setCaseId(caseId);
 					session.setSessionId(sessionId);
 					session.setServiceTypeId(this.TELEPHONE_WEB_CONTACT);
@@ -249,8 +254,11 @@ public class DEXBulkUploadReport3 {
 				LocalDate sessionDate = null;
 				for (Entry<String, au.com.scds.chats.dom.temp.Session> n : entry.getValue().entrySet()) {
 					if (counter == 0) {
-						String caseId = n.getValue().getActivity() + "_" + region.getName();
-						sessionId = caseId + "_" + n.getValue().getInteractionDate().toString("dd-MM-YYYY");
+						String caseId = n.getValue().getActivity().replaceAll("\\s", "") +  regionCode(region.getName());
+						sessionId = String.valueOf(Math.abs(caseId.hashCode())) + n.getValue().getInteractionDate().toString("ddMMYYYY");
+						if(sessionId.length() > 30){
+							System.out.println("ERROR: SessionId is greater than 30 characters ("+ sessionId +")");
+						}
 						session.setCaseId(caseId);
 						session.setSessionId(sessionId);
 						session.setTotalNumberOfUnidentifiedClients(0);
@@ -316,6 +324,20 @@ public class DEXBulkUploadReport3 {
 		buffer.append(p.getBirthdate().toString("ddMMYYYY"));
 		buffer.append(p.getSex() == Sex.MALE ? "1" : "2");
 		return buffer.toString();
+	}
+
+	private String regionCode(String region) {
+		switch (region) {
+		case "SOUTH":
+			return "S";
+		case "NORTH":
+			return "N";
+		case "NORTH-WEST":
+			return "NW";
+		default:
+			return "ERROR";
+		}
+
 	}
 
 }

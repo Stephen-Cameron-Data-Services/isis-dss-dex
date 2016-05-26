@@ -15,6 +15,8 @@
 			</head>
 			<body>
 				<xsl:apply-templates select="DEXFileUpload/*" />
+				<xsl:call-template name="ClientSessionTotals" />
+				<xsl:call-template name="CaseSessionTotals" />
 			</body>
 		</html>
 	</xsl:template>
@@ -119,5 +121,57 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*|node()" />
 		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template name="ClientSessionTotals">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Client Total Session Time (Minutes)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<xsl:for-each select="DEXFileUpload/Clients/Client/ClientId">
+					<tr>
+						<xsl:variable name="clientId">
+							<xsl:value-of select="." />
+						</xsl:variable>
+						<td>
+							<xsl:value-of select="$clientId" />
+						</td>
+						<td>
+							<xsl:value-of
+								select="sum(/DEXFileUpload/Sessions/Session[SessionClients/SessionClient/ClientId=$clientId]/TimeMinutes)" />
+						</td>
+					</tr>
+				</xsl:for-each>
+			</tbody>
+		</table>
+	</xsl:template>
+
+	<xsl:template name="CaseSessionTotals">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Case Total Session Time (Minutes)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<xsl:for-each select="DEXFileUpload/Cases/Case/CaseId">
+					<tr>
+						<xsl:variable name="caseId">
+							<xsl:value-of select="." />
+						</xsl:variable>
+						<td>
+							<xsl:value-of select="$caseId" />
+						</td>
+						<td>
+							<xsl:value-of
+								select="sum(/DEXFileUpload/Sessions/Session[CaseId=$caseId]/TimeMinutes)" />
+						</td>
+					</tr>
+				</xsl:for-each>
+			</tbody>
+		</table>
 	</xsl:template>
 </xsl:stylesheet>

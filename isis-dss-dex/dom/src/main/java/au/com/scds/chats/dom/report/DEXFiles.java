@@ -1,4 +1,4 @@
-package au.com.scds.chats.dom.module.report;
+package au.com.scds.chats.dom.report;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +19,8 @@ import org.apache.isis.applib.services.jdosupport.IsisJdoSupport;
 import org.apache.isis.applib.value.Clob;
 import org.joda.time.LocalDate;
 
-import au.com.scds.chats.dom.module.general.Persons;
-import au.com.scds.chats.dom.module.general.names.Region;
+import au.com.scds.chats.dom.general.Persons;
+import au.com.scds.chats.dom.general.names.Region;
 import au.com.scds.dss.dex.model.ReferenceData;
 
 @DomainService(nature = NatureOfService.VIEW_MENU_ONLY)

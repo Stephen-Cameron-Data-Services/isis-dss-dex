@@ -83,12 +83,12 @@
         <dependency>
         	<groupId>au.com.scds</groupId>
         	<artifactId>chats-dom</artifactId>
-        	<version>0.2-SNAPSHOT</version>
+        	<version>0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
         	<groupId>au.com.scds</groupId>
         	<artifactId>chats-reports</artifactId>
-        	<version>0.2-SNAPSHOT</version>
+        	<version>0.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

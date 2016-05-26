@@ -1,4 +1,4 @@
-package au.com.scds.chats.dom.module.report;
+package au.com.scds.chats.dom.report;
 
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -17,19 +17,19 @@ import org.datanucleus.exceptions.NucleusObjectNotFoundException;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
-import au.com.scds.chats.dom.module.activity.ActivityEvent;
-import au.com.scds.chats.dom.module.attendance.AttendanceList;
-import au.com.scds.chats.dom.module.attendance.Attended;
-import au.com.scds.chats.dom.module.call.ScheduledCall;
-import au.com.scds.chats.dom.module.general.Address;
-import au.com.scds.chats.dom.module.general.Person;
-import au.com.scds.chats.dom.module.general.Persons;
-import au.com.scds.chats.dom.module.general.Sex;
-import au.com.scds.chats.dom.module.general.names.Region;
-import au.com.scds.chats.dom.module.participant.Participant;
-import au.com.scds.chats.dom.module.participant.Participants;
-import au.com.scds.chats.dom.module.report.view.CallsDurationByParticipantAndMonth;
-import au.com.scds.chats.dom.module.report.view.ParticipantActivityByMonth;
+import au.com.scds.chats.dom.activity.ActivityEvent;
+import au.com.scds.chats.dom.attendance.AttendanceList;
+import au.com.scds.chats.dom.attendance.Attend;
+import au.com.scds.chats.dom.call.ScheduledCall;
+import au.com.scds.chats.dom.general.Address;
+import au.com.scds.chats.dom.general.Person;
+import au.com.scds.chats.dom.general.Persons;
+import au.com.scds.chats.dom.general.Sex;
+import au.com.scds.chats.dom.general.names.Region;
+import au.com.scds.chats.dom.participant.Participant;
+import au.com.scds.chats.dom.participant.Participants;
+import au.com.scds.chats.dom.report.view.CallsDurationByParticipantAndMonth;
+import au.com.scds.chats.dom.report.view.ParticipantActivityByMonth;
 import au.com.scds.dss.dex.model.ReferenceData;
 import au.com.scds.dss.dex.model.generated.Case;
 import au.com.scds.dss.dex.model.generated.CaseClient;

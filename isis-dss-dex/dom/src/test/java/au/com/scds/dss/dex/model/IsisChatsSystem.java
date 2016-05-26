@@ -6,29 +6,29 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import au.com.scds.chats.dom.module.activity.Activities;
-import au.com.scds.chats.dom.module.activity.ActivityEvent;
-import au.com.scds.chats.dom.module.general.Locations;
-import au.com.scds.chats.dom.module.general.Persons;
-import au.com.scds.chats.dom.module.general.names.ActivityTypes;
-import au.com.scds.chats.dom.module.general.names.Regions;
-import au.com.scds.chats.dom.module.general.names.Salutations;
-import au.com.scds.chats.dom.module.general.names.TransportTypes;
-import au.com.scds.chats.dom.module.participant.Participants;
-import au.com.scds.chats.dom.module.report.DEXBulkUploadReport;
-import au.com.scds.chats.dom.module.report.DEXBulkUploadReport2;
-import au.com.scds.chats.dom.module.report.DEXBulkUploadReport3;
-import au.com.scds.chats.dom.module.volunteer.Volunteers;
+import au.com.scds.chats.dom.activity.Activities;
+import au.com.scds.chats.dom.activity.ActivityEvent;
+import au.com.scds.chats.dom.general.Locations;
+import au.com.scds.chats.dom.general.Persons;
+import au.com.scds.chats.dom.general.names.ActivityTypes;
+import au.com.scds.chats.dom.general.names.Regions;
+import au.com.scds.chats.dom.general.names.Salutations;
+import au.com.scds.chats.dom.general.names.TransportTypes;
+import au.com.scds.chats.dom.participant.Participants;
+import au.com.scds.chats.dom.volunteer.Volunteers;
+import au.com.scds.chats.dom.report.DEXBulkUploadReport;
+import au.com.scds.chats.dom.report.DEXBulkUploadReport2;
+import au.com.scds.chats.dom.report.DEXBulkUploadReport3;
 
 import com.google.common.collect.Lists;
 
 import domainapp.app.DomainAppAppManifest;
 
-//import org.incode.module.note.fixture.dom.notedemoobject.NoteDemoObject;
-//import org.incode.module.note.fixture.dom.notedemoobject.NoteDemoObjectMenu;
-//import org.incode.module.note.app.NoteModuleAppManifest;
-//import org.incode.module.note.integtests.NoteModuleIntegTest;
-//import org.isisaddons.module.fakedata.FakeDataModule;
+//import org.incode.note.fixture.dom.notedemoobject.NoteDemoObject;
+//import org.incode.note.fixture.dom.notedemoobject.NoteDemoObjectMenu;
+//import org.incode.note.app.NoteModuleAppManifest;
+//import org.incode.note.integtests.NoteModuleIntegTest;
+//import org.isisaddons.fakedata.FakeDataModule;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;

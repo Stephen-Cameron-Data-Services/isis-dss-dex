@@ -1,4 +1,4 @@
-package au.com.scds.chats.dom.module.report;
+package au.com.scds.chats.dom.report;
 
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -13,19 +13,19 @@ import org.apache.isis.applib.services.jdosupport.IsisJdoSupport;
 import org.joda.time.DateTime;
 import org.joda.time.LocalDate;
 
-import au.com.scds.chats.dom.module.activity.ActivityEvent;
-import au.com.scds.chats.dom.module.attendance.AttendanceList;
-import au.com.scds.chats.dom.module.attendance.Attended;
-import au.com.scds.chats.dom.module.call.ScheduledCall;
-import au.com.scds.chats.dom.module.general.Address;
-import au.com.scds.chats.dom.module.general.Person;
-import au.com.scds.chats.dom.module.general.Persons;
-import au.com.scds.chats.dom.module.general.Sex;
-import au.com.scds.chats.dom.module.general.names.Region;
-import au.com.scds.chats.dom.module.participant.Participant;
-import au.com.scds.chats.dom.module.participant.Participants;
-import au.com.scds.chats.dom.module.report.view.CallsDurationByParticipantAndMonth;
-import au.com.scds.chats.dom.module.report.view.ParticipantActivityByMonth;
+import au.com.scds.chats.dom.activity.ActivityEvent;
+import au.com.scds.chats.dom.attendance.AttendanceList;
+import au.com.scds.chats.dom.attendance.Attend;
+import au.com.scds.chats.dom.call.ScheduledCall;
+import au.com.scds.chats.dom.general.Address;
+import au.com.scds.chats.dom.general.Person;
+import au.com.scds.chats.dom.general.Persons;
+import au.com.scds.chats.dom.general.Sex;
+import au.com.scds.chats.dom.general.names.Region;
+import au.com.scds.chats.dom.participant.Participant;
+import au.com.scds.chats.dom.participant.Participants;
+import au.com.scds.chats.dom.report.view.CallsDurationByParticipantAndMonth;
+import au.com.scds.chats.dom.report.view.ParticipantActivityByMonth;
 import au.com.scds.dss.dex.model.ReferenceData;
 import au.com.scds.dss.dex.model.generated.Case;
 import au.com.scds.dss.dex.model.generated.CaseClient;
@@ -197,8 +197,8 @@ public class DEXBulkUploadReport {
 			ResidentialAddress a = new ResidentialAddress();
 			Address s = p.getStreetAddress();
 			if (s != null) {
-				a.setAddressLine1(s.getStreet1());
-				a.setAddressLine2(s.getStreet2());
+				//a.setAddressLine1(s.getStreet1());
+				//a.setAddressLine2(s.getStreet2());
 				a.setSuburb(s.getSuburb());
 				a.setPostcode(s.getPostcode());
 				a.setStateCode("TAS");
@@ -231,8 +231,8 @@ public class DEXBulkUploadReport {
 					// present
 					boolean include = false;
 					AttendanceList attendances = activity.getAttendances();
-					for (Attended attended : attendances.getAttendeds()) {
-						Person p = attended.getParticipant().getPerson();
+					for (Attend attend : attendances.getAttends()) {
+						Person p = attend.getParticipant().getPerson();
 						String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
 								+ p.getBirthdate().toString("dd-MM-YYYY");
 						if (agedList.containsKey(personKey)) {
@@ -249,7 +249,7 @@ public class DEXBulkUploadReport {
 						session.setCaseId(activity.getName().trim() + " " + region.getName());
 						SessionClients clients = new SessionClients();
 						Integer totalMinutes = 0;
-						for (Attended attended : attendances.getAttendeds()) {
+						for (Attend attended : attendances.getAttends()) {
 							if (attended.getWasAttended().equals("YES")) {
 								Person p = attended.getParticipant().getPerson();
 								String personKey = p.getFirstname().trim() + "_" + p.getSurname().trim() + "_"
